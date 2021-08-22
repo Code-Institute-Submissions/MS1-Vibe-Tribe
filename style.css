@@ -50,19 +50,20 @@
   color: #DFBD69;
 }
 /* Will automatically display the navbar vertically instead of horizontally on smaller screens like tablets and mobiles, making the webpage responsive */
-@media screen and (max-width: 1000px) {
- 
+@media screen and (max-width: 768px) {
+
+   .navbar a {
+      float: none;
+      display: block;
+    }
 }
-.navbar a {
-  float: none;
-  display: block;
-}
- 
+/* sets the social media icons out in a list */
 .fa-ul {
   display: inline-flexbox;
   top:0 ;
   font-size: 15px;
 }
+/* styles the logo */
 .logo {
   display: block;
   align-items: center;
@@ -70,6 +71,7 @@
   margin-right: auto;
   width: 50vw;
 }
+/* styles the video, making the landing page background */
 .video{
   width: 100vw;
   height: 100vh;
@@ -80,9 +82,10 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-}    
+} 
+/* styles the footer */   
 .footer {
-  position: fixed;
+  position: fixed;  
   left: 0;
   bottom: 0;
   width: 100%;
