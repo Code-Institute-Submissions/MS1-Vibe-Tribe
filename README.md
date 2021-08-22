@@ -1,6 +1,6 @@
 ![Logo](Vibe-Tribe.png)
 
-Welcome to my Code Insitute Milestone 1 (MS1) project,
+Welcome to my Code Insitute Milestone 1 (MS1) project.
 
 
 # What is my project about ?
@@ -11,12 +11,14 @@ For my MS1 project I had to build a website that provides the user with informat
 
  The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be shame to loose that as thing slowly return to normal. Vibe Tribe is a means of maintaing that and ecouraging people to come togther and flourish, focusing on there common goals and intrests as opposed to their differences.
 
-# User Experince Design (UX)
+# User Experience Design (UX)
+
   ## Design
-   ### Colour Scheme
-   ### Typography
-   ### Images & Videos
-   ###  Wireframes
+
+   ### Colour Scheme:
+   ### Typography:
+   ### Images & Videos:
+   ###  Wireframes:
 
 # Limitations 
 

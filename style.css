@@ -2,92 +2,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap');
 /* Removes margins and sets font family*/
 * {box-sizing: border-box;
- margin:0;
- font-family: 'Rowdies', cursive
+  margin:0;
+  font-family: 'Rowdies', cursive
 }
-/* Styles the header  */
+/* Adds a gold background color to the header  */
 .landing-page-header {
- background-color: #DFBD69;
- overflow: hidden;
- font-family: 'Rowdies', cursive;
- color: #611CA9;
- width: 100%;
+  background-color: #DFBD69;
+  overflow: hidden;
+  font-family: 'Rowdies', cursive;
+  color: #611CA9;
+  width: 100%;
 }
+ 
 /* Styles the social media icons in the header bar */
 .landing-page-header a {
- color: #611CA9;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- font-size: 17px;
+  color: #611CA9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-/* Styles the navigation bar */
+/* Adds a black background to the navigation bar */
 .landing-page-menu {
- background-color: #000000;
- overflow: hidden;
- font-family: 'Rowdies', cursive;
- color: #611CA9;
- width: 100%;
+  background-color: #000000;
+  overflow: hidden;
+  font-family: 'Rowdies', cursive;
+  color: #611CA9;
+  width: 100%;
 }
 /* Styles the links inside the navigation bar */
 .landing-page-menu a {
- float: left;
- color: #611CA9;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- font-size: 17px;
+  float: left;
+  color: #611CA9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 /* Changes the link to purple on hover */
 .landing-page-menu a:hover {
- background-color: #611CA9;
- color: #DFBD69;
+  background-color: #611CA9;
+  color: #DFBD69;
 }
 /* Makes the active/current link purple */
 .landing-page-menu a.active {
- background-color: #611CA9;
- color: #DFBD69;
+  background-color: #611CA9;
+  color: #DFBD69;
 }
-/* Will automatically display the navbar vertically instead of horizontally on screens less than 600 pixels making webpage responsive */
-@media screen and (max-width: 600px) {
+/* Will automatically display the navbar vertically instead of horizontally on smaller screens like tablets and mobiles, making the webpage responsive */
+@media screen and (max-width: 1000px) {
+ 
 }
-/* Sets navbar position */
 .navbar a {
- float: none;
- display: block;
+  float: none;
+  display: block;
 }
-/* Sets the  position of the icons and their size */
+ 
 .fa-ul {
- font-size: large;
+  display: inline-flexbox;
+  top:0 ;
+  font-size: 15px;
 }
-/* Sets size and positioning of the logo */
 .logo {
- display: block;
- align-items: center;
- margin-left: auto;
- margin-right: auto;
- width: 30%;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
 }
-/* Sets the video as the landing page background */
 .video{
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: top;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-   } 
-   /* Styles the footer */
-   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#DFBD69;
-    color: #000000;
-    text-align: left;
-   }
+  width:100%;
+  height: fit-content;
+  margin:0;
+}  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DFBD69;
+  color: #000000;
+  text-align: left;
+}
+
    
