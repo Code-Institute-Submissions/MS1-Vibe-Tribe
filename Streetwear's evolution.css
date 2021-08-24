@@ -72,3 +72,27 @@
     background-color: #D4B464;;
     width: 40vw;
 }
+/* styles font */
+.Font{
+    font-family:Rowdies;
+    display: block;
+    text-align: center;
+}
+.WorkSans{
+    font-family:Work Sans;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 90%;
+   
+}
+/* sets background colour to gold */
+.bckgrnd{
+    background-color: #D4B464;
+}
+/* styles video */
+.video{
+    width: 40vw;
+    float: right;
+    position:relative;
+}
+  
