@@ -51,11 +51,11 @@
 }
 /* Will automatically display the navbar vertically instead of horizontally on screens less than 600 pixels making webpage responsive */
 @media screen and (max-width: 600px) {
- }
+}
 /* Sets navbar position */
 .navbar a {
-    float: none;
-    display: block;
+  float: none;
+  display: block;
 }
 /* Sets the  position of the icons and their size */
 .fa-ul {
@@ -65,34 +65,279 @@
 }
 /* Allows me to have the size and positioning I want*/
 .logo{
-    display: block;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #D4B464;;
-    width: 40vw;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D4B464;;
+  width: 40vw;
 }
-/* styles font */
+/* styles body header text */
 .Font{
-    font-family:Rowdies;
-    display: block;
-    text-align: center;
+  font-family:Rowdies;
+  display: block;
+  text-align: center;
 }
+/* styles body text */
 .WorkSans{
-    font-family:Work Sans;
-    margin-left: 20px;
-    margin-right: 20px;
-    max-width: 90%;
-   
+  font-family:Work Sans;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 90%;
 }
 /* sets background colour to gold */
 .bckgrnd{
-    background-color: #D4B464;
+  background-color: #D4B464;
 }
 /* styles video */
 .video{
-    width: 40vw;
-    float: right;
-    position:relative;
+  width: 40vw;
+  float: right;
+  position:relative;
 }
-  
+/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}
+/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}
+/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}
+/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}
+/* The flip card container */
+.Hip-hop{
+  background-color: transparent;
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.Hip-hop-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.Hip-hop:hover .Hip-hop-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.Hip-hop-front, .Hip-hop-back{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.Hip-hop-front{
+  background-color: white;
+  color: black;
+}
+/* Styles the back of the card */
+.Hip-hop-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: "work sans";
+}
+
