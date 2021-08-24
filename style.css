@@ -108,6 +108,7 @@
 }
 /* styles the footer */   
 .footer {
+  font-family: 'Rowdies';
   position: fixed;  
   left: 0;
   bottom: 0;

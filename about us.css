@@ -87,7 +87,7 @@
   float: right;
   text-align: justify;
 }
-/* reduces font size on screens 900px and less */
+/* reduces font size and removes image on screens 900px and less */
 @media only screen and (max-width:900px){
     .header{
       font-size: 100%;
@@ -101,7 +101,7 @@
       
     }
 }
-/* reduces font size on screens 600px and less */
+/* reduces font size and removes image on screens 600px and less */
 @media only screen and (max-width:600px){
   .header{
     font-size: 100%;
@@ -171,4 +171,16 @@
   display: block;
   margin-left: 20vw ;
   width: 20%;
+}
+/* styles the footer */   
+.footer {
+  font-family: 'Rowdies';
+  font-size: 15px;
+  position: fixed;  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DFBD69;
+  color: #000000;
+  text-align: left;
 }
