@@ -1,12 +1,13 @@
 /* Allows me to import my chosen fonts from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap');
+
 /* Removes margins and sets font family*/
 * {box-sizing: border-box;
   margin:0;
   font-family: 'Rowdies', cursive
 }
 /* Adds a gold background color to the header  */
-.landing-page-header {
+.landing-page-header{
   background-color: #DFBD69;
   overflow: hidden;
   font-family: 'Rowdies', cursive;
@@ -15,7 +16,7 @@
 }
  
 /* Styles the social media icons in the header bar */
-.landing-page-header a {
+.landing-page-header a{
   color: #611CA9;
   text-align: center;
   padding: 14px 16px;
@@ -23,7 +24,7 @@
   font-size: 17px;
 }
 /* Adds a black background to the navigation bar */
-.landing-page-menu {
+.landing-page-menu{
   background-color: #000000;
   overflow: hidden;
   font-family: 'Rowdies', cursive;
@@ -31,7 +32,7 @@
   width: 100%;
 }
 /* Styles the links inside the navigation bar */
-.landing-page-menu a {
+.landing-page-menu a{
   float: left;
   color: #611CA9;
   text-align: center;
@@ -40,38 +41,38 @@
   font-size: 17px;
 }
 /* Changes the link to purple on hover */
-.landing-page-menu a:hover {
+.landing-page-menu a:hover{
   background-color: #611CA9;
   color: #DFBD69;
 }
 /* Makes the active/current link purple */
-.landing-page-menu a.active {
+.landing-page-menu a.active{
   background-color: #611CA9;
   color: #DFBD69;
 }
 /* Will automatically display the navbar vertically instead of horizontally on smaller screens like tablets and mobiles, making the webpage responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
 
-   .navbar a {
+   .navbar a{
       float: none;
       display: block;
     }
 }
 /* sets the social media icons out in a list */
-.fa-ul {
+.fa-ul{
   display: inline-flexbox;
   top:0 ;
   font-size: 15px;
 }
 /* styles the logo */
-.logo {
+.logo{
   display: block;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 50vw;
 }
-/* styles the video, making the landing page background */
+/* styles the video, making it the landing page background. The z-index is higher than the picture background so the video will only be visibale on larger screens */
 .video{
   width: 100vw;
   height: 100vh;
@@ -82,7 +83,29 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-} 
+}
+/* styles the picture, so that it wont be visible on larger  screens */
+.smaller-screens{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: top;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -3;
+  display: none;
+}
+/* this media query styles the media for smaller screen (600px and less). The imaget wont be visible on larger screens and hides the video on smaller screens. Making the landing page resposive*/
+@media only screen and (max-width: 600px) {
+  .video{
+   display: none;
+ }
+    .smaller-screens{
+     display: block;
+   }   
+}
 /* styles the footer */   
 .footer {
   position: fixed;  
@@ -93,5 +116,3 @@
   color: #000000;
   text-align: left;
 }
-
-   
