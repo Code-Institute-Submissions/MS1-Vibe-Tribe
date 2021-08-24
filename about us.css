@@ -1,9 +1,10 @@
 /*  allows me to import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Work+Sans:wght@300;600&display=swap');
-/* Removes margins fro the header and sets sizes of the boxes */
+/* Removes margins from the header and sets sizes of the boxes */
 * {box-sizing: border-box;
   margin:0;
 }
+/* Styles the header bar */
 .landing-page-header{
   background-color: #DFBD69;
   overflow: hidden;
@@ -48,15 +49,126 @@
 }
 /* Will automatically display the navbar vertically instead of horizontally on screens less than 600 pixels making webpage responsive */
 @media screen and (max-width: 600px){
- }
 /* Sets navbar position */
-.navbar a{
-  float: none;
-  display: block;
-}
+     .navbar a{
+       float: none;
+       display: block;
+    }
+} 
  /* Sets the  position of the icons and their size */
 .fa-ul{
   display: inline-flexbox;
   top:0 ;
   font: size 5px;
+}
+/* Styles logo */
+.logo {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-color:#D4B464 ;
+}
+/* sets left-half of the background to a picture */
+.background{
+  background-image: url("Man .png");
+  width: 55%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  float: left;
+}
+/* sets  the colour  of the right-half of the background to gold*/
+.colour{
+  background-color:#D4B464 ;
+  width: 45%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  float: right;
+  text-align: justify;
+}
+/* reduces font size on screens 900px and less */
+@media only screen and (max-width:900px){
+    .header{
+      font-size: 100%;
+    }
+    .margin{
+      font-size: 90%;
+    }
+    .location{
+      font-size: 60%;
+      text-align: center;
+      
+    }
+}
+/* reduces font size on screens 600px and less */
+@media only screen and (max-width:600px){
+  .header{
+    font-size: 100%;
+  }
+  .margin{
+    font-size: 80%;
+  }
+  .location{
+    font-size: 70%;
+  }
+  .background{
+    display: none;
+  }
+  .colour{
+    width: 100%;
+  }
+  .Spiral{
+    display: block;
+    width: 25%;
+  }
+}
+/* reduces font size on screens 300px and less */
+@media only screen and (max-width:300px){
+  .header{
+    font-size: 110%;
+  }
+  .margin{
+    font-size: 90%;
+  }
+  .location{
+    font-size: 90%;
+  }
+  .background{
+    display: none;
+  }
+  .colour{
+    width: 100%;
+  }
+  .Spiral{
+    display: block;
+    width: 20%;
+  }
+}
+
+/* sets  font and positong of the header*/
+.header{
+  text-align: center;
+  font-family: Rowdies;
+}
+
+/* removes the margins and sets font of main text*/
+.margin{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-family: Work sans;
+}
+/* sets  font and position of location text*/
+.location{
+  font-family: Rowdies;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+/* position and size of spiral */
+.Spiral{
+  display: block;
+  margin-left: 20vw ;
+  width: 20%;
 }
