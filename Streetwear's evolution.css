@@ -100,7 +100,7 @@
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 2px solid #C4C4C4;
+  border: 2px solid #EAEAEA;
   perspective: 1000px; /* Gives the 3D effect */
 }
 /* helps position the front and back of the flip card */
@@ -141,7 +141,7 @@
   background-color: transparent;
   width: 300px;
   height: 325px;
-  border: 2px solid #C4C4C4;
+  border: 2px solid #EAEAEA;
   perspective: 1000px; /* Gives the 3D effect */
 }
 /* helps position the front and back of the flip card */
@@ -171,6 +171,46 @@
 }
 /* Styles the back of the card */
 .skating-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
+/* The flip card container for basketball*/
+.basketball{
+  background-color: transparent;
+  width: 305px;
+  height: 365px;
+  border: 2px solid #484848;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.basketball-inner {
+  position: relative;
+  width: 300px;
+  height: 335px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.basketball:hover .basketball-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.basketball-front, .basketball-back{
+  position: absolute;
+  width: 300px;
+  height: 360px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.basketball-front{
+  color: black;
+}
+/* Styles the back of the card */
+.basketball-back{
   background-color:#611CA9;
   color:black;
   transform: rotateY(180deg);
