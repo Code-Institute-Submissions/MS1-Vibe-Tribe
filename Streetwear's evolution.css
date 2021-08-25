@@ -216,6 +216,86 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
+/* The flip card container for skating*/
+.skating{
+  background-color: transparent;
+  width: 300px;
+  height: 325px;
+  border: 2px solid #EAEAEA;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.skating-inner {
+  position: relative;
+  width: 300px;
+  height: 325px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.skating:hover .skating-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.skating-front, .skating-back{
+  position: absolute;
+  width: 300px;
+  height: 325px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.skating-front{
+  color: black;
+}
+/* Styles the back of the card */
+.skating-back{
+  background-color:#B19CD9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
+/* The flip card container for street art*/
+.street-art{
+  background-color: transparent;
+  width: 305px;
+  height: 365px;
+  border: 2px solid #484848;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.street-art-inner {
+  position: relative;
+  width: 300px;
+  height: 335px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.street-art:hover .street-art-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.street-art-front, .street-art-back{
+  position: absolute;
+  width: 300px;
+  height: 360px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.street-art-front{
+  color: black;
+}
+/* Styles the back of the card */
+.street-art-back{
+  background-color:#B19CD9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
 
 
 
