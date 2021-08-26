@@ -98,9 +98,9 @@
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 2px solid #EAEAEA;
+  width: 295px;
+  height: 295px;
+  border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
 /* helps position the front and back of the flip card */
@@ -139,89 +139,9 @@
 /* The flip card container for skating*/
 .skating{
   background-color: transparent;
-  width: 300px;
-  height: 325px;
-  border: 2px solid #EAEAEA;
-  perspective: 1000px; /* Gives the 3D effect */
-}
-/* helps position the front and back of the flip card */
-.skating-inner {
-  position: relative;
-  width: 300px;
-  height: 325px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-/* horizontal flip when mouse hovers over the card */
-.skating:hover .skating-inner{
-  transform: rotateY(180deg);
-}
-/* Position the front and back of card */
-.skating-front, .skating-back{
-  position: absolute;
-  width: 300px;
-  height: 325px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
-  backface-visibility: hidden;
-}
-/* Styles the front of the card*/
-.skating-front{
-  color: black;
-}
-/* Styles the back of the card */
-.skating-back{
-  background-color:#611CA9;
-  color:black;
-  transform: rotateY(180deg);
-  font-family: 'work sans';
-}
-/* The flip card container for basketball*/
-.basketball{
-  background-color: transparent;
-  width: 305px;
-  height: 365px;
-  border: 2px solid #484848;
-  perspective: 1000px; /* Gives the 3D effect */
-}
-/* helps position the front and back of the flip card */
-.basketball-inner {
-  position: relative;
-  width: 300px;
-  height: 335px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-/* horizontal flip when mouse hovers over the card */
-.basketball:hover .basketball-inner{
-  transform: rotateY(180deg);
-}
-/* Position the front and back of card */
-.basketball-front, .basketball-back{
-  position: absolute;
-  width: 300px;
-  height: 360px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
-  backface-visibility: hidden;
-}
-/* Styles the front of the card*/
-.basketball-front{
-  color: black;
-}
-/* Styles the back of the card */
-.basketball-back{
-  background-color:#611CA9;
-  color:black;
-  transform: rotateY(180deg);
-  font-family: 'work sans';
-}
-/* The flip card container for skating*/
-.skating{
-  background-color: transparent;
-  width: 300px;
-  height: 325px;
-  border: 2px solid #EAEAEA;
+  width: 295px;
+  height: 320px;
+  border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
 /* helps position the front and back of the flip card */
@@ -256,19 +176,66 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
-/* The flip card container for street art*/
-.street-art{
+.right{
+  float: right;
+  width: 33%;
+  padding: 5px 0;
+  position: relative;
+  top: -90vh;
+}
+/* The flip card container for basketball*/
+.basketball{
   background-color: transparent;
   width: 305px;
-  height: 365px;
-  border: 2px solid #484848;
+  height: 350px;
+  border: 2px solid #000000;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.basketball-inner {
+  position: relative;
+  width: 310px;
+  height: 360px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.basketball:hover .basketball-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.basketball-front, .basketball-back{
+  position: absolute;
+  width: 310px;
+  height: 360px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.basketball-front{
+  color: black;
+}
+/* Styles the back of the card */
+.basketball-back{
+  background-color:#B19CD9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
+/* The flip card container for street-art*/
+.street-art{
+  background-color: transparent;
+  width: 304px;
+  height: 331px;
+  border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
 /* helps position the front and back of the flip card */
 .street-art-inner {
   position: relative;
-  width: 300px;
-  height: 335px;
+  width: 309px;
+  height: 315px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -280,8 +247,8 @@
 /* Position the front and back of card */
 .street-art-front, .street-art-back{
   position: absolute;
-  width: 300px;
-  height: 360px;
+  width: 309px;
+  height: 335px;
   -webkit-backface-visibility: hidden; /* needed fot Safari */
   backface-visibility: hidden;
 }
@@ -291,6 +258,46 @@
 }
 /* Styles the back of the card */
 .street-art-back{
+  background-color: #611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
+/* The flip card container for haute-coture*/
+.haute-coture{
+  background-color: transparent;
+  width: 305px;
+  height: 365px;
+  border: 2px solid #000000;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.haute-coture-inner {
+  position: relative;
+  width: 310px;
+  height: 365px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.haute-coture:hover .haute-coture-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.haute-coture-front, .haute-coture-back{
+  position: absolute;
+  width: 310px;
+  height: 370px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.haute-coture-front{
+  color: black;
+}
+/* Styles the back of the card */
+.haute-coture-back{
   background-color:#B19CD9;
   color:black;
   transform: rotateY(180deg);
