@@ -176,12 +176,52 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
+/* The flip card container for japenese streetwear*/
+.japenese-streetwear{
+  background-color: transparent;
+  width: 295px;
+  height: 455px;
+  border: 2px solid #000000;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+/* helps position the front and back of the flip card */
+.japenese-streetwear-inner {
+  position: relative;
+  width: 300px;
+  height: 460px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* horizontal flip when mouse hovers over the card */
+.japenese-streetwear:hover .japenese-streetwear-inner{
+  transform: rotateY(180deg);
+}
+/* Position the front and back of card */
+.japenese-streetwear-front, .japenese-streetwear-back{
+  position: absolute;
+  width: 300px;
+  height: 460px;
+  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  backface-visibility: hidden;
+}
+/* Styles the front of the card*/
+.japenese-streetwear-front{
+  color: black;
+}
+/* Styles the back of the card */
+.japenese-streetwear-back{
+  background-color:#611CA9;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: 'work sans';
+}
 .right{
   float: right;
-  width: 33%;
+  width: 65vw;
   padding: 5px 0;
   position: relative;
-  top: -90vh;
+  top: -143vh;
 }
 /* The flip card container for basketball*/
 .basketball{
