@@ -89,7 +89,10 @@
 .bckgrnd{
   background-color: #D4B464;
 }
-
+.right{
+  position: relative;
+  top: -101vh;
+}
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
   background-color: transparent;
@@ -216,9 +219,8 @@
 }
 /* Styles the left column of cards */
 .left{
-  float: right;
-  width: 55vw;
-  padding: 5px 0;
+  float: left;
+  margin-left: 46vw;
   position: relative;
   top: -252vh;
 }
