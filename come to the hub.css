@@ -51,7 +51,6 @@
 }
 /* Will automatically display the navbar vertically instead of horizontally on screens less than 600 pixels making the webpage responsive */
 @media screen and (max-width: 600px) {
- 
 }
 /* Sets navbar position */
 .navbar a{
@@ -64,3 +63,62 @@
    top:0 ;
    font: size 5px;
 }
+.img{
+    width: 30vw;
+    display: box;
+    float: left;
+    height:100vh;
+    margin: left 0; ;
+}
+.logo{
+    width: 40vh;
+    float:Right;
+    margin-right:26vw;
+}
+table, th, td{
+    border: 1px solid black;
+    font-family:Work sans;
+    width:50vw;
+    
+}
+tr:hover{
+    background-color:#DFBD69;
+}
+th{
+    background-color: #611CA9;
+    color: white;
+    font-family: Work sans;
+}
+table{
+    float: right;
+    text-align: center;
+    margin:4.5%;
+    position: absolute;
+    height:30%;
+    margin-top: 15vh;
+    margin-left: 10vw;
+}
+.style{
+    overflow: auto;
+}
+.text{
+    position: absolute;
+    text-align: justify;
+    margin-left:10vw ;
+    margin-right:5% ;
+    font-family: work sans;
+    max-width: 40vw;
+    float: right;
+    bottom: 35vh;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#DFBD69;
+    color: #000000;
+    text-align: left;
+    font-family:Rowdies;
+}
+ 

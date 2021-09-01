@@ -344,6 +344,15 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
-
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DFBD69;
+  color: #000000;
+  text-align: left;
+  font-family:Rowdies;
+}
 
 
