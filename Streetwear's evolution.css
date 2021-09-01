@@ -89,25 +89,21 @@
 .bckgrnd{
   background-color: #D4B464;
 }
-/* styles video */
-.video{
-  width: 40vw;
-  float: right;
-  position:relative;
-}
+
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
   background-color: transparent;
-  width: 295px;
-  height: 295px;
+  width: 305px;
+  height: 350px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
+  margin-left: 70vw;
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card */
 .Hip-hop-inner {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -119,9 +115,9 @@
 /* Position the front and back of card */
 .Hip-hop-front, .Hip-hop-back{
   position: absolute;
-  width: 300px;
-  height: 300px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  width: 310px;
+  height: 360px;
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
@@ -139,16 +135,17 @@
 /* The flip card container for skating*/
 .skating{
   background-color: transparent;
-  width: 295px;
-  height: 320px;
+  width: 304px;
+  height: 330px;
   border: 2px solid #000000;
-  perspective: 1000px; /* Gives the 3D effect */
+  perspective: 1000px;/* Gives the 3D effect */
+  margin-left: 70vw; 
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card */
 .skating-inner {
   position: relative;
-  width: 300px;
-  height: 325px;
+  width: 309px;
+  height: 335px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -160,9 +157,9 @@
 /* Position the front and back of card */
 .skating-front, .skating-back{
   position: absolute;
-  width: 300px;
-  height: 325px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  width: 309px;
+  height: 335px;
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
@@ -179,15 +176,16 @@
 /* The flip card container for japenese streetwear*/
 .japenese-streetwear{
   background-color: transparent;
-  width: 295px;
+  width: 304px;
   height: 455px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
+  margin-left: 70vw;
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card  */
 .japenese-streetwear-inner {
   position: relative;
-  width: 300px;
+  width: 309px;
   height: 460px;
   text-align: center;
   transition: transform 0.8s;
@@ -200,9 +198,9 @@
 /* Position the front and back of card */
 .japenese-streetwear-front, .japenese-streetwear-back{
   position: absolute;
-  width: 300px;
+  width: 309px;
   height: 460px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
@@ -216,12 +214,13 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
-.right{
+/* Styles the left column of cards */
+.left{
   float: right;
-  width: 65vw;
+  width: 55vw;
   padding: 5px 0;
   position: relative;
-  top: -143vh;
+  top: -252vh;
 }
 /* The flip card container for basketball*/
 .basketball{
@@ -231,7 +230,7 @@
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card */
 .basketball-inner {
   position: relative;
   width: 310px;
@@ -249,7 +248,7 @@
   position: absolute;
   width: 310px;
   height: 360px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
@@ -271,11 +270,11 @@
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card  */
 .street-art-inner {
   position: relative;
   width: 309px;
-  height: 315px;
+  height: 335px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -289,7 +288,7 @@
   position: absolute;
   width: 309px;
   height: 335px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
@@ -307,15 +306,15 @@
 .haute-coture{
   background-color: transparent;
   width: 305px;
-  height: 365px;
+  height: 455px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
-/* helps position the front and back of the flip card */
+/* helps position the inside of flip card */
 .haute-coture-inner {
   position: relative;
   width: 310px;
-  height: 365px;
+  height: 460px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -328,8 +327,8 @@
 .haute-coture-front, .haute-coture-back{
   position: absolute;
   width: 310px;
-  height: 370px;
-  -webkit-backface-visibility: hidden; /* needed fot Safari */
+  height: 460px;
+  -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
