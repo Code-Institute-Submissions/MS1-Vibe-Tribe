@@ -61,3 +61,44 @@
    top:0 ;
    font: size 5px;
 }
+/* Sets the  width of the image. I could not set the margin width to 25% of the users screen so that the logo appears centred*/
+.Logo{
+    width: 40vw;
+    margin-left:35vw;
+ }
+/* Sets the form height*/
+.form{
+    height: 65%;
+ }
+/* Styles the form inputs*/
+.input[type=text],[type=email]{
+    width: 60%;
+    border: 3px solid #DFBD69;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-family: Work Sans;
+    font-size: large;
+}
+/* Styles the text */
+.txt{
+    font-size: x-large;
+    text-align: center;
+    font-family: Rowdies;
+}
+/* Styles the sign up button*/
+.sign-up{ 
+    width: 30%;
+    border: 3px solid #DFBD69;
+    background-color: #DFBD69;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Rowdies;
+    font-size: medium;
+}
+/* Sets the background to lilac*/
+.body {
+    background-color:#B19CD9 ;
+}
+ 

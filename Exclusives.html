@@ -21,4 +21,47 @@
             </section>  
                 
     </head>
+    <body>
+        <!-- sets location of logo image and allows me to style it-->
+        <img src = "Logo.png" type= "png" class="Logo"/>
+          <br><br><br>
+          <!-- sets header texts and allows me to style it-->
+            <h1 class="txt" > Sign up for exclusive events, drops and updates !!</h1>
+              <br>
+                <!-- sign up fotm-->
+                <form >
+                 <!-- allows me to style it and sets the label for the name part of the form-->
+                  <label for=" name" class="label">Name:</label><br>
+
+                    <!-- validates text in the form. It also sets place holder text-->
+                    <input required type= "text" id="first" name="first" placeholder="First name or nickname"><br>
+
+                    <!-- allows me to style it and sets the label for the email part of the form-->
+                      <label for="Email"class="label">Email:</label><br>
+
+                      <!-- validaties emails . It also sets place holder text-->
+                        <input required type="email" id="email" name="email" placeholder="Jazzy@gmail.com"><br><br>
+
+                           <!-- sets Niche label and allows me to style it-->
+                          <label for="Niche" class="label">What is your Niche:</label><br>
+                          
+                            <!-- form drop down-->
+                            <select name="Niche"id="Niche" >
+                                <!-- form drop down options-->
+                                <option value="Skating">Skating</option>
+                                <option value="videography">videography</option>
+                                <option value="Music">Music</option>
+                                <option value="Art">Art</option>
+                                <option value="Phototgraphy">Phototgraphy</option>
+                                <option value="Design">Design</option>
+                                <option value="Fashion">Fashion</option>
+                                <option value="Basketball">Basketball</option>
+                                <option value="I dabble in everything">I dabble in everything</option>
+                            </select>
+                              <br><br>
+                              <!-- sets button text and allows me to style it-->
+                                <button type="submit" class= "sign-up" onclick="alert('We have recieved your request and will add your email to the exclusive mailing list, so stay tuned for updates !')">Sign me up !</button>
+                </form>
+      </body>
+   
 </html>
