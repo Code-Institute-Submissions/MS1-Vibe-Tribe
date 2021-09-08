@@ -70,8 +70,9 @@
 .form{
     height: 65%;
 }
+
 /* Styles the form inputs*/
-.input[type=text],[type=email]{
+input[type=email],[type=text]{
     width: 60%;
     border: 3px solid #DFBD69;
     border-radius: 4px;
