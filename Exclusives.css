@@ -65,11 +65,11 @@
 .Logo{
     width: 40vw;
     margin-left:35vw;
- }
+}
 /* Sets the form height*/
 .form{
     height: 65%;
- }
+}
 /* Styles the form inputs*/
 .input[type=text],[type=email]{
     width: 60%;
@@ -100,5 +100,15 @@
 /* Sets the background to lilac*/
 .body {
     background-color:#B19CD9 ;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#000000;
+    color: #ffffff;
+    text-align: left;
+    font-family:Rowdies;
 }
  
