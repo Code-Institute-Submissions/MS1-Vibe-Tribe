@@ -89,7 +89,7 @@
 /* Styles the sign up button*/
 .sign-up{ 
     width: 30%;
-    border: 3px solid #DFBD69;
+    border: 2px solid #0c0c0c;
     background-color: #DFBD69;
     color: black;
     border-radius: 4px;
@@ -98,7 +98,7 @@
     font-size: medium;
 }
 /* Sets the background to lilac*/
-.body {
+body {
     background-color:#B19CD9 ;
 }
 .footer{
@@ -106,8 +106,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#000000;
-    color: #ffffff;
+    background-color:#DFBD69;
+    color: #000000;
     text-align: left;
     font-family:Rowdies;
 }
