@@ -89,6 +89,7 @@
 .bckgrnd{
   background-color: #D4B464;
 }
+/* Styles the right column of the flip cards*/
 .right{
   position: relative;
   top: -101vh;
@@ -344,6 +345,7 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
+/* Styles the footer*/
 .footer{
   position: fixed;
   left: 0;
