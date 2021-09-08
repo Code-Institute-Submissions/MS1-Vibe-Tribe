@@ -62,6 +62,7 @@
   top:0 ;
   font: size 5px;
 }
+/* Styles the image */
 .img{
   width: 30vw;
   display: box;
@@ -69,26 +70,31 @@
   height:100vh;
   margin: left 0; ;
 }
+/* Styles the logo */
 .logo{
   width: 40vh;
   float:Right;
   margin-right:26vw;
 }
+/* Styles the table border*/
 table, th, td{
   border: 1px solid black;
   font-family:Work sans;
   width:50vw;
  
 }
+/* changengs the background to gold on hover */
 tr:hover{
   background-color:#DFBD69;
 }
+
+/* Styles the image */
 th{
   background-color: #611CA9;
   color: white;
   font-family: Work sans;
 }
-
+/* Styles the table*/
 table{
   float: right;
   text-align: center;
@@ -98,9 +104,11 @@ table{
   margin-top: 15vh;
   margin-left: 10vw;
 }
+/* If there is overflow of text the content will be clippeed but the rest of text is visible*/
 .style{
   overflow: auto;
 }
+/* Styles the text*/
 .text{
   position: absolute;
   text-align: justify;
@@ -111,6 +119,7 @@ table{
   float: right;
   bottom: 35vh;
 }
+/* Styles the footer */
 .footer{
   position: fixed;
   left: 0;
