@@ -89,10 +89,16 @@
 .bckgrnd{
   background-color: #D4B464;
 }
+.video{
+  width:45vw;
+  height:60vh;
+  position:relative;
+  float:left
+}
 /* Styles the right column of the flip cards*/
 .right{
   position: relative;
-  top: -101vh;
+  top: 5vh;
 }
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
@@ -223,7 +229,7 @@
   float: left;
   margin-left: 46vw;
   position: relative;
-  top: -252vh;
+  top: -146vh;
 }
 /* The flip card container for basketball*/
 .basketball{
