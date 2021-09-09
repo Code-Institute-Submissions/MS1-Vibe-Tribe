@@ -58,11 +58,9 @@
       display: block;
     }
 }
-/* sets the social media icons out in a list */
-.fa-ul{
-  display: inline-flexbox;
-  top:0 ;
-  font-size: 15px;
+/* on hover the social media icons are opaque*/
+.fa:hover {
+  opacity: 0.4;
 }
 /* styles the logo */
 .logo{
