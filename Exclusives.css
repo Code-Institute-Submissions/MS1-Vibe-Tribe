@@ -63,53 +63,63 @@
 }
 /* Sets the  width of the image. I could not set the margin width to 25% of the users screen so that the logo appears centred*/
 .Logo{
-    width: 40vw;
-    margin-left:35vw;
+   width: 40vw;
+   margin-left:35vw;
 }
 /* Sets the form height*/
 .form{
-    height: 65%;
+   height: 65%;
 }
 
 /* Styles the form inputs*/
 input[type=email],[type=text]{
-    width: 60%;
-    border: 3px solid #DFBD69;
-    border-radius: 4px;
-    background-color: white;
-    color: black;
-    font-family: Work Sans;
-    font-size: large;
+   width: 60%;
+   border: 3px solid #DFBD69;
+   border-radius: 4px;
+   background-color: white;
+   color: black;
+   font-family: Work Sans;
+   font-size: large;
 }
 /* Styles the text */
 .txt{
-    font-size: x-large;
-    text-align: center;
-    font-family: Rowdies;
+   font-size: x-large;
+   text-align: center;
+   font-family: Rowdies;
+}
+
+/* Sets the background to lilac*/
+body {
+   background-color:#B19CD9 ;
+}
+.video{
+   float: right;
+   margin-right: 2vw; ;
+   position: relative;
+   top: -25vh;
+   width: 30vw;
+   height: 70vh;
 }
 /* Styles the sign up button*/
 .sign-up{ 
-    width: 30%;
-    border: 2px solid #0c0c0c;
-    background-color: #DFBD69;
-    color: black;
-    border-radius: 4px;
-    text-align: center;
-    font-family: Rowdies;
-    font-size: medium;
+   width: 30%;
+   border: 2px solid #0c0c0c;
+   background-color: #DFBD69;
+   color: black;
+   border-radius: 4px;
+   text-align: center;
+   font-family: Rowdies;
+   font-size: medium;
 }
-/* Sets the background to lilac*/
-body {
-    background-color:#B19CD9 ;
-}
+ 
 .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#DFBD69;
-    color: #000000;
-    text-align: left;
-    font-family:Rowdies;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#DFBD69;
+   color: #000000;
+   text-align: left;
+   font-family:Rowdies;
 }
  
