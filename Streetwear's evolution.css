@@ -349,6 +349,32 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
+@media screen and (max-width: 1000px){
+.left{
+  float: left;
+  margin-left: 5vw;
+  position: relative;
+  top: 7vh;
+}
+.right{
+  position: relative;
+  top: 10vh;
+  float: right;
+  margin-right: 3vw;
+}
+@media screen and (max-width: 800px){
+  .left{
+    margin-left: 35vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 220vh;
+    margin-right: 26vw;
+  }
+}
+
 /* Styles the footer*/
 .footer{
   position: fixed;
