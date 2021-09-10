@@ -63,12 +63,13 @@
 }
 /* Sets the  width of the image. I could not set the margin width to 25% of the users screen so that the logo appears centred*/
 .Logo{
-   width: 40vw;
+   width: 40%;
    margin-left:35vw;
 }
 /* Sets the form height*/
 .form{
    height: 65%;
+   margin-left: 15%;
 }
 
 /* Styles the form inputs*/
@@ -98,7 +99,7 @@ body {
    position: relative;
    top: -25vh;
    width: 30vw;
-   height: 70vh;
+   height: 65vh;
 }
 /* Styles the sign up button*/
 .sign-up{ 
@@ -111,7 +112,52 @@ body {
    font-family: Rowdies;
    font-size: medium;
 }
- 
+/* Styles the text on screens 600px and less*/
+@media only screen and (max-width: 600px) {
+   .video{
+    display: none;
+   }
+   .sign-up{ 
+      width: 50%;
+      border: 2px solid #0c0c0c;
+      background-color: #DFBD69;
+      color: black;
+      border-radius: 4px;
+      text-align: center;
+      font-family: Rowdies;
+      font-size: medium;
+   }
+   .form{
+      height: 65%;
+      margin-left: 25%;
+   }
+   input[type=email],[type=text]{
+      width: 80%;
+      
+   }
+   .txt{
+      font-size: large;
+     
+   }
+   ::placeholder{
+      font-size: 80%;
+   }
+}
+@media only screen and (max-width: 550px) {
+   .Logo{
+      width: 60%;
+      margin-left:20vw;
+   }
+}
+ @media only screen and (max-width: 300px) {
+   ::placeholder{
+      font-size: 65%;
+   }
+   .Logo{
+      width: 70%;
+      margin-left:15vw;
+   }
+}
 .footer{
    position: fixed;
    left: 0;
