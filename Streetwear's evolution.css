@@ -350,17 +350,18 @@
   font-family: 'work sans';
 }
 @media screen and (max-width: 1000px){
-.left{
-  float: left;
-  margin-left: 5vw;
-  position: relative;
-  top: 7vh;
-}
-.right{
-  position: relative;
-  top: 10vh;
-  float: right;
-  margin-right: 3vw;
+  .left{
+    float: left;
+    margin-left: 5vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 10vh;
+    float: right;
+    margin-right: 3vw;
+  }
 }
 @media screen and (max-width: 800px){
   .left{
@@ -371,10 +372,57 @@
   .right{
     position: relative;
     top: 220vh;
-    margin-right: 26vw;
+    margin-right: 25vw;
   }
 }
-
+@media screen and (max-width: 700px){
+  .left{
+    margin-left: 35vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 220vh;
+    margin-right: 20vw;
+  }
+}
+@media screen and (max-width: 600px){
+  .left{
+    margin-left: 35vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 220vh;
+    margin-right: 15vw;
+  }
+}
+@media screen and (max-width: 500px){
+  .left{
+    margin-left: 35vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 220vh;
+    margin-right: 10vw;
+  }
+}
+@media screen and (max-width: 400px){
+  .left{
+    margin-left:10vw;
+    position:relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 220vh;
+    margin-right:10vw;
+  }
+}
 /* Styles the footer*/
 .footer{
   position: fixed;
@@ -386,5 +434,3 @@
   text-align: left;
   font-family:Rowdies;
 }
-
-
