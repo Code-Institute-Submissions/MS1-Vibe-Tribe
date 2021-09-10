@@ -72,7 +72,7 @@
 }
 /* Styles the logo */
 .logo{
-  width: 40vh;
+  width: 45vh;
   float:Right;
   margin-right:26vw;
 }
@@ -100,9 +100,80 @@ table{
   text-align: center;
   margin:4.5%;
   position: absolute;
-  height:30%;
-  margin-top: 15vh;
+  height:40%;
+  margin-top: 20vh;
   margin-left: 10vw;
+}
+/* Styles the table and image on screens 850px and less*/
+@media only screen and (max-width: 850px) {
+  .img{
+    display: none;
+  }
+  table{
+    height:35%;
+    margin-top: 20vh;
+    margin-left: 25vw;
+  }
+}
+/* Styles the table and image on screens 500px and less*/
+@media only screen and (max-width: 500px) {
+  .img{
+    display: none;
+  }
+  .logo{
+    width: 35vh;
+    display: block;
+    
+  }
+  table{
+    float: right;
+    text-align: center;
+    margin:4.5%;
+    position: absolute;
+    height:35%;
+    margin-top: 15vh;
+    margin-left: 25vw;
+  }
+}
+/* Styles the table and image on screens 400px and less*/
+@media only screen and (max-width: 400px) {
+  .img{
+    display: none;
+  }
+  .logo{
+    width: 30vh;
+    display: block;
+    
+  }
+  table{
+    float: right;
+    text-align: center;
+    margin:4.5%;
+    position: absolute;
+    height:35%;
+    margin-top: 12vh;
+    margin-left: 20vw;
+  }
+}
+/* Styles the table and image on screens 300px and less*/
+@media only screen and (max-width: 300px) {
+  .img{
+    display: none;
+  }
+  .logo{
+    width: 25vh;
+    display: block;
+    
+  }
+  table{
+    float: right;
+    text-align: center;
+    margin:4.5%;
+    position: absolute;
+    height:10%;
+    margin-top: 10vh;
+    margin-left: 15vw;
+  }
 }
 /* If there is overflow of text the content will be clippeed but the rest of text is visible*/
 .style{
@@ -117,7 +188,52 @@ table{
   font-family: work sans;
   max-width: 40vw;
   float: right;
-  bottom: 35vh;
+  bottom: 8vh;
+}
+/* Styles the text on screens 850px and less*/
+@media only screen and (max-width: 850px) {
+  .text{
+    position: absolute;
+    text-align: justify;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 8vh;
+    font-size: 90%;
+  }
+}
+/* Styles the text on screens 500px and less*/
+@media only screen and (max-width: 500px) {
+  .text{
+    position: absolute;
+    text-align: justify;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 7vh;
+    font-size: 85%;
+  }
+}
+/* Styles the text on screens 400px and less*/
+@media only screen and (max-width: 400px) {
+  .text{
+    position: absolute;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 5.5vh;
+    font-size: 70%;
+  }
+}
+/* Styles the text on screens 300px and less*/
+@media only screen and (max-width: 300px) {
+  .text{
+    position: absolute;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 3vh;
+    font-size: 70%;
+  }
+  .footer{
+    font-size: 70%;
+  }
 }
 /* Styles the footer */
 .footer{
