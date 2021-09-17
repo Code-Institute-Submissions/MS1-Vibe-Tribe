@@ -181,7 +181,7 @@
   font-family: 'work sans';
 }
 /* The flip card container for japenese streetwear*/
-.japenese-streetwear{
+.japanese-streetwear{
   background-color: transparent;
   width: 304px;
   height: 455px;
@@ -190,7 +190,7 @@
   margin-left: 70vw;
 }
 /* helps position the inside of flip card  */
-.japenese-streetwear-inner {
+.japanese-streetwear-inner {
   position: relative;
   width: 309px;
   height: 460px;
@@ -199,11 +199,11 @@
   transform-style: preserve-3d;
 }
 /* horizontal flip when mouse hovers over the card */
-.japenese-streetwear:hover .japenese-streetwear-inner{
+.japanese-streetwear:hover .japanese-streetwear-inner{
   transform: rotateY(180deg);
 }
 /* Position the front and back of card */
-.japenese-streetwear-front, .japenese-streetwear-back{
+.japanese-streetwear-front, .japanese-streetwear-back{
   position: absolute;
   width: 309px;
   height: 460px;
@@ -211,11 +211,11 @@
   backface-visibility: hidden;
 }
 /* Styles the front of the card*/
-.japenese-streetwear-front{
+.japanese-streetwear-front{
   color: black;
 }
 /* Styles the back of the card */
-.japenese-streetwear-back{
+.japanese-streetwear-back{
   background-color:#611CA9;
   color:black;
   transform: rotateY(180deg);
@@ -349,7 +349,8 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
-@media screen and (max-width: 1000px){
+/* Styles the cards on screens 1500px and less */
+@media screen and (max-width: 1150px){
   .left{
     float: left;
     margin-left: 5vw;
@@ -363,6 +364,7 @@
     margin-right: 3vw;
   }
 }
+/* Styles the cards on screens 800px and less */
 @media screen and (max-width: 800px){
   .left{
     margin-left: 35vw;
@@ -371,10 +373,11 @@
   }
   .right{
     position: relative;
-    top: 220vh;
+    top: 180vh;
     margin-right: 25vw;
   }
 }
+/* Styles the cards on screens 700px and less */
 @media screen and (max-width: 700px){
   .left{
     margin-left: 35vw;
@@ -383,10 +386,11 @@
   }
   .right{
     position: relative;
-    top: 220vh;
+    top: 180vh;
     margin-right: 20vw;
   }
 }
+/* Styles the cards on screens 600px and less */
 @media screen and (max-width: 600px){
   .left{
     margin-left: 35vw;
@@ -395,10 +399,24 @@
   }
   .right{
     position: relative;
-    top: 220vh;
+    top: 180vh;
     margin-right: 15vw;
   }
 }
+/* Styles the cards on screens 550px and less */
+@media screen and (max-width: 550px){
+  .left{
+    margin-left: 35vw;
+    position: relative;
+    top: 7vh;
+  }
+  .right{
+    position: relative;
+    top: 180vh;
+    margin-right: 10vw;
+  }
+}
+/* Styles the cards on screens 500px and less */
 @media screen and (max-width: 500px){
   .left{
     margin-left: 35vw;
@@ -407,10 +425,12 @@
   }
   .right{
     position: relative;
-    top: 220vh;
+    top: 180vh;
     margin-right: 10vw;
   }
 }
+
+/* Styles the cards on screens 400px and less */
 @media screen and (max-width: 400px){
   .left{
     margin-left:10vw;
@@ -419,7 +439,7 @@
   }
   .right{
     position: relative;
-    top: 220vh;
+    top: 180vh;
     margin-right:10vw;
   }
 }
