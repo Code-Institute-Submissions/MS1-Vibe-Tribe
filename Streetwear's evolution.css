@@ -90,9 +90,10 @@
   background-color: #D4B464;
   z-index: 0;
 }
-/* pictures z index is lower than the background colour so wont be visble */
+/* pictures wont be visble */
 .pictures{
   z-index: -7;
+  display: none;
 }
 /* Styles the right column of the flip cards*/
 .right{
@@ -353,6 +354,29 @@
   transform: rotateY(180deg);
   font-family: 'work sans';
 }
+/* Styles the cards on screens 2000px and less */
+@media screen and (max-width: 2000px){
+  .left{
+    float: left;
+    margin-left: 5vw;
+    position: relative;
+    top: 7vh;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  .right{
+    position: relative;
+    top: 10vh;
+    float: right;
+    padding-left: 300px;
+    
+
+  }
+  .pictures{
+    z-index: -7;
+    display: none;
+  }
+}
 /* Styles the cards on screens 1500px and less */
 @media screen and (max-width: 1150px){
   .left{
@@ -373,6 +397,7 @@
   }
   .pictures{
     z-index: -7;
+    display: none;
   }
 }
 /* Styles the cards on screens 800px and less */
@@ -392,6 +417,7 @@
   }
   .pictures{
     z-index: -7;
+    display: none;
   }
 }
 /* Styles the cards on screens 700px and less */
@@ -411,6 +437,7 @@
   }
   .pictures{
     z-index: -7;
+    display: none;
   }
 }
 /* Styles the cards on screens 600px and less */
@@ -459,7 +486,6 @@
    display: block;
    padding-left: 100px;
    padding-right: 100px;
-   align-items: center;
    z-index: 7;
   }
 }
@@ -475,7 +501,6 @@
    display: block;
    padding-left: 75px;
    padding-right: 75px;
-   align-items: center;
    z-index: 7;
   }
 }
