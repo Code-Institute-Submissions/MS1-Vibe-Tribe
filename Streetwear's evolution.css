@@ -88,8 +88,12 @@
 /* sets background colour to gold */
 .bckgrnd{
   background-color: #D4B464;
+  z-index: 0;
 }
-
+/* pictures z index is lower than the background colour so wont be visble */
+.pictures{
+  z-index: -7;
+}
 /* Styles the right column of the flip cards*/
 .right{
   position: relative;
@@ -356,12 +360,19 @@
     margin-left: 5vw;
     position: relative;
     top: 7vh;
+    padding-left: 288px;
+    padding-right: 288px;
   }
   .right{
     position: relative;
     top: 10vh;
     float: right;
-    margin-right: 3vw;
+    padding-left: 288px;
+    padding-right: 288px;
+
+  }
+  .pictures{
+    z-index: -7;
   }
 }
 /* Styles the cards on screens 800px and less */
@@ -370,11 +381,17 @@
     margin-left: 35vw;
     position: relative;
     top: 7vh;
+    padding-left: 200px;
+    padding-right: 200px;
   }
   .right{
     position: relative;
     top: 180vh;
-    margin-right: 25vw;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .pictures{
+    z-index: -7;
   }
 }
 /* Styles the cards on screens 700px and less */
@@ -383,66 +400,87 @@
     margin-left: 35vw;
     position: relative;
     top: 7vh;
+    padding-left: 175px;
+    padding-right: 175px;
   }
   .right{
-    position: relative;
+    position:relative;
     top: 180vh;
-    margin-right: 20vw;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+  .pictures{
+    z-index: -7;
   }
 }
 /* Styles the cards on screens 600px and less */
 @media screen and (max-width: 600px){
   .left{
-    margin-left: 35vw;
-    position: relative;
-    top: 7vh;
+   display: none;
   }
   .right{
-    position: relative;
-    top: 180vh;
-    margin-right: 15vw;
+    display: none;
   }
-}
-/* Styles the cards on screens 550px and less */
-@media screen and (max-width: 550px){
-  .left{
-    margin-left: 35vw;
-    position: relative;
-    top: 7vh;
-  }
-  .right{
-    position: relative;
-    top: 180vh;
-    margin-right: 10vw;
+  .pictures{
+   display: block;
+   padding-left: 150px;
+   padding-right: 150px;
+   align-items: center;
+   z-index: 7;
+    
+
   }
 }
 /* Styles the cards on screens 500px and less */
 @media screen and (max-width: 500px){
   .left{
-    margin-left: 35vw;
-    position: relative;
-    top: 7vh;
+   display: none;
   }
   .right{
-    position: relative;
-    top: 180vh;
-    margin-right: 10vw;
+    display: none;
+  }
+  .pictures{
+   display: block;
+   padding-left: 125px;
+   padding-right: 125px;
+   align-items: center;
+   z-index: 7;
   }
 }
-
 /* Styles the cards on screens 400px and less */
 @media screen and (max-width: 400px){
   .left{
-    margin-left:10vw;
-    position:relative;
-    top: 7vh;
+   display: none;
   }
   .right{
-    position: relative;
-    top: 180vh;
-    margin-right:10vw;
+    display: none;
+  }
+  .pictures{
+   display: block;
+   padding-left: 100px;
+   padding-right: 100px;
+   align-items: center;
+   z-index: 7;
   }
 }
+/* Styles the cards on screens 300px and less */
+@media screen and (max-width: 300px){
+  .left{
+   display: none;
+  }
+  .right{
+    display: none;
+  }
+  .pictures{
+   display: block;
+   padding-left: 75px;
+   padding-right: 75px;
+   align-items: center;
+   z-index: 7;
+  }
+}
+
+
 /* Styles the footer*/
 .footer{
   position: fixed;
