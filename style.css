@@ -68,14 +68,15 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw;
+  width: 35vw;
 }
 /* styles the video, making it the landing page background. The z-index is higher than the picture background so the video will only be visibale on larger screens */
 .video{
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  position: top;
+  position: absolute;
+  top: 400px;
   left: 0;
   right: 0;
   top: 0;
