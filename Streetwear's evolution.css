@@ -90,14 +90,15 @@
   background-color: #D4B464;
   z-index: 0;
 }
-/* Changes the  colour of visited links to gold as the defult colour was too similar to the flip clards */
-a:visited {
+
+  /* Changes the  colour of visited links to gold as the defult colour was too similar to the flip clards */
+a.links:visited {
   color: #DFBD69;
   background-color: transparent;
   text-decoration: none;
 }
 /* Changes the  colour of links to blue on hover to increase contrast */
-a:hover {
+a.links:hover {
   color: #1C1EA9;
   background-color: transparent;
   text-decoration: underline;
