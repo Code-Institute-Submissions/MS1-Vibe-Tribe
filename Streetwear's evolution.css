@@ -90,6 +90,18 @@
   background-color: #D4B464;
   z-index: 0;
 }
+/* Changes the  colour of visited links to gold as the defult colour was too similar to the flip clards */
+a:visited {
+  color: #DFBD69;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* Changes the  colour of links to blue on hover to increase contrast */
+a:hover {
+  color: #1C1EA9;
+  background-color: transparent;
+  text-decoration: underline;
+}
 /* pictures wont be visble */
 .pictures{
   z-index: -7;
@@ -535,4 +547,4 @@
   color: #000000;
   text-align: left;
   font-family:Rowdies;
-}
+} 
