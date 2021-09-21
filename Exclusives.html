@@ -28,41 +28,44 @@
           <!-- sets header texts and allows me to style it-->
             <h1 class="txt" > Sign up for exclusive events, drops and updates !!</h1>
               <br>
-                <!-- sign up form-->
-                <form class="form">
-                 <!-- Sets the label and text for the name part of the form-->
-                  <label for=" name">Name:</label><br>
+              <section class="form"> 
+                  <!-- sign up form, shows the form details to the user after they successfully sign up-->
+                  <form action="https://formdump.codeinstitute.net/" method="POST">
+                    
+                  <!-- Sets the label and text for the name part of the form-->
+                    <label for=" name">Name:</label><br>
 
-                    <!-- validates text in the form. It also sets place holder text-->
-                    <input required type="text" id="first" name="first" placeholder="First name or nickname"></input><br><br>
+                      <!-- validates text in the form. It also sets place holder text-->
+                      <input required type="text" id="first" name="name" placeholder=" This is how we will address you"></input><br><br>
 
-                    <!-- Sets the label and text for the email part of the form-->
-                      <label for="Email">Email:</label><br>
+                      <!-- Sets the label and text for the email part of the form-->
+                        <label for="Email">Email:</label><br>
 
-                      <!-- validaties emails . It also sets place holder text-->
-                        <input required type="email" id="email" name="email" placeholder="Jazzy@gmail.com"></input><br><br>
+                        <!-- validaties emails . It also sets place holder text-->
+                          <input required type="email" id="email" name="email" placeholder="eg. Jazzy@gmail.com"></input><br><br>
 
-                           <!-- sets Niche label and allows me to style it-->
-                          <label for="Niche">What is your Niche:</label><br>
+                            <!-- sets Niche label and allows me to style it-->
+                            <label for="Niche">What is your Niche:</label><br>
 
-                            <!-- form drop down-->
-                            <select name="Niche"id="Niche" >
-                                <!-- form drop down options-->
-                                <option value="Skating">Skating</option>
-                                <option value="videography">videography</option>
-                                <option value="Music">Music</option>
-                                <option value="Art">Art</option>
-                                <option value="Phototgraphy">Phototgraphy</option>
-                                <option value="Design">Design</option>
-                                <option value="Fashion">Fashion</option>
-                                <option value="Basketball">Basketball</option>
-                                <option value="I dabble in everything">I dabble in everything</option>
-                            </select>
-                              <br><br>
-                              <!-- sets button text and allows me to style it-->
-                                <button type="submit" class= "sign-up" >Sign me up !</button>
-                </form>
-                    <!--  "controls" allows video to be controlled by user. "Preload" allows the video to automaticaly preload."class" allows me to stlye the video-->
+                              <!-- form drop down-->
+                              <select name="Niche"id="Niche" >
+                                  <!-- form drop down options-->
+                                  <option value="Skating">Skating</option>
+                                  <option value="videography">videography</option>
+                                  <option value="Music">Music</option>
+                                  <option value="Art">Art</option>
+                                  <option value="Phototgraphy">Phototgraphy</option>
+                                  <option value="Design">Design</option>
+                                  <option value="Fashion">Fashion</option>
+                                  <option value="Basketball">Basketball</option>
+                                  <option value="I dabble in everything">I dabble in everything</option>
+                              </select>
+                                <br><br>
+                                <!-- sets button text and allows me to style it-->
+                                  <button type="submit" class= "sign-up" >Sign me up !</button>
+                  </form>
+              </section>      
+              <!--  "controls" allows video to be controlled by user. "Preload" allows the video to automaticaly preload."class" allows me to stlye the video-->
                     <video  controls preload="auto" class="video">
                       <!-- Location and type of video.-->
                         <source src="Streetwear.mp4" type= "video/mp4">
