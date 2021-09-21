@@ -411,6 +411,18 @@ a.links:hover {
     display: none;
   }
 }
+/* Styles the footer*/
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DFBD69;
+  color: #000000;
+  text-align: left;
+  font-family:Rowdies;
+  padding: 0.5%;
+} 
 /* Hides the flip cards on screens 1100px and less */
 @media screen and (max-width: 1100px){
   .left{
@@ -537,16 +549,3 @@ a.links:hover {
     padding-right: 6%;
     align-items: center;
   }
-}
-/* Styles the footer*/
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#DFBD69;
-  color: #000000;
-  text-align: left;
-  font-family:Rowdies;
-  padding: 0.5%;
-} 
