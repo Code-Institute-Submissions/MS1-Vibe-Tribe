@@ -152,16 +152,17 @@ a.links:hover {
 }
 /* Styles the back of the card */
 .Hip-hop-back{
-  background-color:#611CA9;
+  background-color:#B19CD9;
   color:black;
   transform: rotateY(180deg);
   font-family: "work sans";
+  padding: 30px;
 }
 /* The flip card container for skating*/
 .skating{
   background-color: transparent;
   width: 304px;
-  height: 330px;
+  height: 350px;
   border: 2px solid #000000;
   perspective: 1000px;/* Gives the 3D effect */
   margin-left: 70vw; 
@@ -170,7 +171,7 @@ a.links:hover {
 .skating-inner {
   position: relative;
   width: 309px;
-  height: 335px;
+  height: 360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -183,7 +184,7 @@ a.links:hover {
 .skating-front, .skating-back{
   position: absolute;
   width: 309px;
-  height: 335px;
+  height: 360px;
   -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
@@ -197,12 +198,13 @@ a.links:hover {
   color:black;
   transform: rotateY(180deg);
   font-family: 'work sans';
+  padding: 30px;
 }
 /* The flip card container for japenese streetwear*/
 .japanese-streetwear{
   background-color: transparent;
   width: 304px;
-  height: 455px;
+  height: 350px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
   margin-left: 70vw;
@@ -211,7 +213,7 @@ a.links:hover {
 .japanese-streetwear-inner {
   position: relative;
   width: 309px;
-  height: 460px;
+  height: 360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -224,7 +226,7 @@ a.links:hover {
 .japanese-streetwear-front, .japanese-streetwear-back{
   position: absolute;
   width: 309px;
-  height: 460px;
+  height: 360px;
   -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
@@ -234,10 +236,11 @@ a.links:hover {
 }
 /* Styles the back of the card */
 .japanese-streetwear-back{
-  background-color:#611CA9;
+  background-color:#B19CD9;
   color:black;
   transform: rotateY(180deg);
   font-family: 'work sans';
+  padding: 30px;
 }
 /* Styles the left column of cards */
 .left{
@@ -286,12 +289,13 @@ a.links:hover {
   color:black;
   transform: rotateY(180deg);
   font-family: 'work sans';
+  padding: 30px;
 }
 /* The flip card container for street-art*/
 .street-art{
   background-color: transparent;
   width: 304px;
-  height: 331px;
+  height: 350px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
@@ -299,7 +303,7 @@ a.links:hover {
 .street-art-inner {
   position: relative;
   width: 309px;
-  height: 335px;
+  height: 3360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -312,7 +316,7 @@ a.links:hover {
 .street-art-front, .street-art-back{
   position: absolute;
   width: 309px;
-  height: 335px;
+  height: 360px;
   -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
@@ -322,16 +326,17 @@ a.links:hover {
 }
 /* Styles the back of the card */
 .street-art-back{
-  background-color: #611CA9;
+  background-color: #B19CD9;
   color:black;
   transform: rotateY(180deg);
   font-family: 'work sans';
+  padding: 30px;
 }
 /* The flip card container for haute-coture*/
 .haute-coture{
   background-color: transparent;
   width: 305px;
-  height: 455px;
+  height: 350px;
   border: 2px solid #000000;
   perspective: 1000px; /* Gives the 3D effect */
 }
@@ -339,7 +344,7 @@ a.links:hover {
 .haute-coture-inner {
   position: relative;
   width: 310px;
-  height: 460px;
+  height: 360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -352,7 +357,7 @@ a.links:hover {
 .haute-coture-front, .haute-coture-back{
   position: absolute;
   width: 310px;
-  height: 460px;
+  height: 360px;
   -webkit-backface-visibility: hidden; /* needed for Safari */
   backface-visibility: hidden;
 }
@@ -366,6 +371,7 @@ a.links:hover {
   color:black;
   transform: rotateY(180deg);
   font-family: 'work sans';
+  padding: 30px;
 }
 /* Styles the cards on screens 1500px and less */
 @media screen and (max-width: 1500px){
