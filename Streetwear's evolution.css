@@ -82,6 +82,7 @@
 .WorkSans{
   font-family:Work Sans;
 }
+/* stops the main text from stretching too far across the sceen, centres text with the flip cards making it easier for the user to read */
 .text{
   padding-left: 15vw;
   padding-right: 15vw;
