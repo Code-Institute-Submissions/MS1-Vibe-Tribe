@@ -95,7 +95,7 @@
 
   /* Changes the  colour of visited links to gold as the defult colour was too similar to the flip clards */
 a.links:visited {
-  color: #DFBD69;
+  color: #af9554;
   background-color: transparent;
   text-decoration: none;
 }
