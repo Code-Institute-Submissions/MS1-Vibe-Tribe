@@ -93,7 +93,7 @@
   z-index: 0;
 }
 
-  /* Changes the  colour of visited links to gold as the defult colour was too similar to the flip clards */
+  /* Changes the  colour of visited links to gold so it is visible against the flip cards */
 a.links:visited {
   color: #af9554;
   background-color: transparent;
