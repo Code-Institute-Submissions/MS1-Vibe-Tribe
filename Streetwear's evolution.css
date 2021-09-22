@@ -81,9 +81,10 @@
 /* styles body text */
 .WorkSans{
   font-family:Work Sans;
-  margin-left: 20px;
-  margin-right: 20px;
-  max-width: 90%;
+}
+.text{
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 /* sets background colour to gold */
 .bckgrnd{
