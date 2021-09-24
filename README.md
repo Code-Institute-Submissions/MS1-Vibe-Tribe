@@ -254,14 +254,14 @@
 
 # Credits :open_book:
 
-   Code :computer:
+ ## Code :computer:
 
    • All code was written by Brieanna McDonald (the author).
 
    • I used tutorials on [w3schools](https://www.w3schools.com/) to help create my nav bar and flip cards
 
 
-   To write my README I used: :spiral_notepad:
+ ## To write my README I used: :spiral_notepad:
 
    • [Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
 
