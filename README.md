@@ -194,16 +194,16 @@
       • The flip cards also document the contributions each niche has made.
 
   
-### Goals of a frequent visitor :white_check_mark:
-  1. The visitor would want to sign up to get exclusive content and updates
+### Goals of a frequent visitor 
+  1. The visitor would want to sign up to get exclusive content and updates. :white_check_mark:
 
       • There is a sign up form on the exclusives which will allows the user to get exclusive updates and content.
 
-  2. The visitor would want to know what activities are scheduled for a specific day
+  2. The visitor would want to know what activities are scheduled for a specific day. :white_check_mark:
 
       • There is a table on the come to the hub page that documents this.
 
-  3. The visitor would want to be able to navigate their way to speific content easily.
+  3. The visitor would want to be able to navigate their way to speific content easily. :white_check_mark:
 
       • The nav bar has a button that takes you to all the main pages.
 
