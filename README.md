@@ -25,9 +25,11 @@
 
 ### Goals of a first time visitor :dart:
 
-  i.The visitor would want the purpose of the site to be clear and information should be easy to find.
- ii.The visitor would want the site to be easy to navigate on all devices.
-iii.The visitor would want the social media buttons to be easily accessible.
+  • The visitor would want the purpose of the site to be clear and information should be easy to find.
+
+  • The visitor would want the site to be easy to navigate on all devices.
+  
+  • The visitor would want the social media buttons to be easily accessible.
 
 ### Goals of a returning visitor :dart:
 
@@ -37,7 +39,9 @@ iii.The visitor would want the social media buttons to be easily accessible.
   
 ### Goals of a frequent visitor :dart:
   • The visitor would want to sign up to get exclusive content and updates
+
   • The visitor would want to know what activities are scheduled for a specific day
+
   • The visitor would want to be able to navigate their way to speific content easily.
 
   ## Design
