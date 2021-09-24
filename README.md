@@ -9,7 +9,7 @@
  The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be shame to loose that as thing slowly return to normal. Vibe Tribe is a means of maintaing that and ecouraging people to come togther and flourish, focusing on there common goals and intrests as opposed to their differences. It also serves as way to educate people about the contribution streetculture and it sub cutlures have made to larger society.
 
 # Table of contents :bookmark_tabs:
-  [User Experience Design (UX)](#User-Experience-Design-(UX):art:)
+  [User Experience Design (UX)](#User-Experience-Design-(UX))
 
   [Current Features](#Current-features)
 
@@ -52,7 +52,7 @@
    ###  Mockup
    I used figma to create my mockups and have included the links to the mobile and desktop mockups. There are a few differnces in my mockup and the end product, so I have included  screenshots specific to those changes and the links to my mobile and desktop mockups are below:point_down:
 
-   ### Desktop:desktop_computer:
+   ### Desktop :desktop_computer:
    Intially I wanted to have a Hamburger side Menu as shown in the screen shots below. Later on I decided to use a navbar as this would be easy to navigate and would not draw attention away from the landing page video.
    
    I also changed the timeline to flip cards as I felt that this was more interactive and creative. :point_down:
@@ -65,9 +65,9 @@
 
    To keep things as uniformed as possible I also chnaged the mobile menu to the nav bar and instead of flipcards I used hyperlinked pictures as a way to get more information on each niche. To view the mock ups please use the links :point_down:
 
-   [Mobile mockup](https://www.figma.com/file/sIg0LyQzM1Mp1HuRNO1qo6/Vibe-Tribe---mobile?node-id=0%3A1):arrow_left:
+   [Mobile mockup](https://www.figma.com/file/sIg0LyQzM1Mp1HuRNO1qo6/Vibe-Tribe---mobile?node-id=0%3A1) :arrow_left:
 
-   [Desktop mockups](https://www.figma.com/file/BbJR4T8QcH8Eg2WflvtA8f/Vibe-tribe-desktop?node-id=0%3A1):arrow_left:
+   [Desktop mockups](https://www.figma.com/file/BbJR4T8QcH8Eg2WflvtA8f/Vibe-tribe-desktop?node-id=0%3A1) :arrow_left:
 
 
 # Current Features
@@ -94,7 +94,7 @@
 
    • The footer is the same across all pages and viewports to keep it uniformed. This makes it easier to navigate the site as the user knows what to expect. The   social media icons are in the footer so that they are present on every page. I decided to make the footer black so that it was obvious to the reader and then made it transparent so that it did not detract from the nav bar.
 
-## Pages Specific Features :memo::pencil
+## Pages Specific Features :memo:
 
    ### Landing Page
 
