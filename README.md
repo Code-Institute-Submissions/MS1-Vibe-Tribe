@@ -28,12 +28,12 @@
   • The visitor would want the purpose of the site to be clear and information should be easy to find.
 
   • The visitor would want the site to be easy to navigate on all devices.
-  
+
   • The visitor would want the social media buttons to be easily accessible.
 
 ### Goals of a returning visitor :dart:
 
-  • The visitor would be looking to find out more about street culture and be able to explore their intrests more. 
+  • The visitor would be looking to find out more about street culture and be able to explore their interests more. 
   • The visitor would be looking to find out more informaton about the hub
   • The visitor would would to feel like their niche is being recognised
   
@@ -159,7 +159,7 @@
 
       • The landing page video also adds to the creative street culture vibe.
 
-      • The navarbar is easily assecible in the header and gives the visitor the option to click the about us page where they can find more detailed information. .
+      • The navarbar is easily assecible in the header and gives the visitor the option to click the about us page where they can find more detailed information. 
 
   2. The visitor would want the site to be easy to navigate on all devices. :white_check_mark:
 
@@ -177,14 +177,41 @@
 
 ### Goals of a returning visitor
 
-  1. The visitor would be looking to find out more about street culture and be able to explore their intrests more. 
-  2. The visitor would be looking to find out more informaton about the hub
-  3. The visitor would would to feel like their niche is being recognised
+  1. The visitor would be looking to find out more about street culture and be able to explore their interests more. :white_check_mark:
+
+      • The flip cards (larger screens) and clickable images (smaller screens) give the user the freedom to only explore the topics they are intrested in.
+
+      • if the reader wishes to find out more they can click the link that takes them to a page with further reading and links specific to the content dicussed. 
+
+  2. The visitor would be looking to find out more informaton about the hub :white_check_mark:
+
+      • There is a button in the nav bar specific to the hubs details, this is avaible on every page.
+
+  3. The visitor would want to feel like their niche is being recognised :white_check_mark:
+
+      • The hub gives all creatives the chnaces to celebrate their niche with a space each day to do their own thing or the option to participate in a different activity each day. 
+      
+      • The flip cards also document the contributions each niche has made.
+
   
-### Goals of a frequent visitor 
+### Goals of a frequent visitor :white_check_mark:
   1. The visitor would want to sign up to get exclusive content and updates
+
+      • There is a sign up form on the exclusives which will allows the user to get exclusive updates and content.
+
   2. The visitor would want to know what activities are scheduled for a specific day
+
+      • There is a table on the come to the hub page that documents this.
+
   3. The visitor would want to be able to navigate their way to speific content easily.
+
+      • The nav bar has a button that takes you to all the main pages.
+
+      • The read more hyperlinks take you to the pages with more information.
+
+      • There is hyperlinked text throughout the website that will take you to the relevant pages.
+
+      • Social media icons are on the bottom of every page.
 
 # Technologies Used
 
