@@ -9,7 +9,7 @@
  The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be shame to loose that as thing slowly return to normal. Vibe Tribe is a means of maintaing that and ecouraging people to come togther and flourish, focusing on there common goals and intrests as opposed to their differences. It also serves as way to educate people about the contribution streetculture and it sub cutlures have made to larger society.
 
 # Table of contents :bookmark_tabs:
-  [User Experience Design (UX)](#User-Experience-Design-(UX))
+  [User Experience Design (UX)](#User-Experience-Design-(UX)-art)
 
   [Current Features](#Current-features)
 
@@ -94,7 +94,7 @@
 
    • The footer is the same across all pages and viewports to keep it uniformed. This makes it easier to navigate the site as the user knows what to expect. The   social media icons are in the footer so that they are present on every page. I decided to make the footer black so that it was obvious to the reader and then made it transparent so that it did not detract from the nav bar.
 
-## Pages Specific Features :memo:
+## Page Specific Features :memo:
 
    ### Landing Page
 
