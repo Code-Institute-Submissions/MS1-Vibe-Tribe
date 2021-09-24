@@ -9,7 +9,7 @@
  The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be shame to loose that as thing slowly return to normal. Vibe Tribe is a means of maintaing that and ecouraging people to come togther and flourish, focusing on there common goals and intrests as opposed to their differences. It also serves as way to educate people about the contribution streetculture and it sub cutlures have made to larger society.
 
 # Table of contents :bookmark_tabs:
-  [User Experience Design (UX)](#User-Experience-Design-(UX)-art)
+  [User Experience (UX)](#User-Experience-(UX)-art)
 
   [Current Features](#Current-features)
 
@@ -19,7 +19,26 @@
   
   [Credits](#Credits)
 
-# User Experience Design (UX) :art:
+# User Experience (UX) :art:
+
+  ## User Stories 
+
+### Goals of a first time visitor :dart:
+
+  i.The visitor would want the purpose of the site to be clear and information should be easy to find.
+ ii.The visitor would want the site to be easy to navigate on all devices.
+iii.The visitor would want the social media buttons to be easily accessible.
+
+### Goals of a returning visitor :dart:
+
+  • The visitor would be looking to find out more about street culture and be able to explore their intrests more. 
+  • The visitor would be looking to find out more informaton about the hub
+  • The visitor would would to feel like their niche is being recognised
+  
+### Goals of a frequent visitor :dart:
+  • The visitor would want to sign up to get exclusive content and updates
+  • The visitor would want to know what activities are scheduled for a specific day
+  • The visitor would want to be able to navigate their way to speific content easily.
 
   ## Design
 
@@ -112,7 +131,8 @@
 
    ### Exclusives
 
-   • I have created a signup form with validation so that user is prompted if their is any error in completing the form. 
+   • I have created a signup form with validation so that user is prompted if there is any error in completing the form.
+
    • I then linked the form to the code institute form dump so that the all user actions throughout the website generates a response. 
 
 # Future Features :rocket: 
@@ -126,6 +146,41 @@
    • Some images were not suitable for smaller viewports, so are not displayed. I would like to create/find similar images that is suitable for smaller screens, so that there is more consistency in the design across all veiw port sizes.
    
 # Testing 
+
+ ### Goals of a first time visitor 
+
+  1. The visitor would want the purpose of the site to be clear and information should be easy to find. :white_check_mark:
+
+      • The tagline of the logo is "for creatives" indicatimg to the visitor that this site is intended for creatives.
+
+      • The landing page video also adds to the creative street culture vibe.
+
+      • The navarbar is easily assecible in the header and gives the visitor the option to click the about us page where they can find more detailed information. .
+
+  2. The visitor would want the site to be easy to navigate on all devices. :white_check_mark:
+
+      • All page links are directly acessible in the navigation bar. The navigation bar is present in the header of every page keeping consistency throughout the site so it is easy for the visitor to intuitively browse through the website.
+
+      • All pages are responsive until 320px.
+
+  3. The visitor would want the social media buttons to be easily accessible. :white_check_mark:
+
+      • The social media icons are present in the footer on every page.
+
+      • The links take you to the correct page
+
+      • The icons are clearly visible in the footer
+
+### Goals of a returning visitor
+
+  1. The visitor would be looking to find out more about street culture and be able to explore their intrests more. 
+  2. The visitor would be looking to find out more informaton about the hub
+  3. The visitor would would to feel like their niche is being recognised
+  
+### Goals of a frequent visitor 
+  1. The visitor would want to sign up to get exclusive content and updates
+  2. The visitor would want to know what activities are scheduled for a specific day
+  3. The visitor would want to be able to navigate their way to speific content easily.
 
 # Technologies Used
 
