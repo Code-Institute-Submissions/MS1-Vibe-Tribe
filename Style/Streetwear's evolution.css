@@ -84,9 +84,9 @@
   background-color: #D4B464;
   z-index: 0;
 }
-  /* Changes the  colour of links to purple so it is visible against the background */
+  /* Changes the  colour of links to a dark red to increase contrast */
 a.links {
-  color: #611CA9;
+  color: #570000;
 }
 
   /* Changes the  colour of visited links to a blue so it is visible against the background */

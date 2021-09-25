@@ -39,9 +39,9 @@
   background-color: #611CA9;
   color: #DFBD69;
 }
-  /* Changes the  colour of visited links to gold so it is visible against the background */
+  /* Changes the  colour of visited links to dark red to increase the contrast */
   a.links {
-    color: #611CA9;
+    color: #570000;
   }
     /* Changes the  colour of visited links to a blue so it is visible against the background */
   a.links:visited {
