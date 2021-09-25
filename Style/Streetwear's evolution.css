@@ -93,7 +93,7 @@
   z-index: 0;
 }
   /* Changes the  colour of visited links to gold so it is visible against the background */
-a:link {
+a.links {
   color: #611CA9;
 }
 
