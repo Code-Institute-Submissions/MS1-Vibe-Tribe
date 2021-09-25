@@ -51,10 +51,9 @@
   a.links {
     color: #611CA9;
   }
-  
     /* Changes the  colour of visited links to gold so it is visible against the background */
   a.links:visited {
-    color: #af9554;
+    color: #B19CD9;
     background-color: transparent;
     text-decoration: none;
   }
