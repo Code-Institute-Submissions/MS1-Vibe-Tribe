@@ -8,6 +8,10 @@
 
  The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be shame to loose that as thing slowly return to normal. Vibe Tribe is a means of maintaing that and ecouraging people to come togther and flourish, focusing on there common goals and intrests as opposed to their differences. It also serves as way to educate people about the contribution streetculture and it sub cutlures have made to larger society.
 
+ 
+ [Vibe Tribe Live Website](https://bmcdonald2000.github.io/MS1-Vibe-Tribe/index.html)
+
+
 # Table of contents :bookmark_tabs:
   [User Experience (UX)](#User-Experience-(UX)-art)
 
@@ -70,6 +74,7 @@
    I wanted the media used on my site to be a reflection of the creativity and intrests of the users. I was unable to create my own content so I used royalty free images and videos.
 
    • My videos were from [Pexels](https://www.pexels.com/).
+   
    • I used pictures from [Pexels](https://www.pexels.com/) and [unsplash](https://unsplash.com/).
 
    ###  Mockup
@@ -151,9 +156,11 @@
    
 # Testing 
 
+ ## Testing user stories
+
  ### Goals of a first time visitor :white_check_mark:
 
-  1. The visitor would want the purpose of the site to be clear and information should be easy to find. 
+  1. **The visitor would want the purpose of the site to be clear and information should be easy to find.**
 
       • The tagline of the logo is "for creatives" indicatimg to the visitor that this site is intended for creatives.
 
@@ -161,13 +168,13 @@
 
       • The navarbar is easily assecible in the header and gives the visitor the option to click the about us page where they can find more detailed information. 
 
-  2. The visitor would want the site to be easy to navigate on all devices. 
+  2. **The visitor would want the site to be easy to navigate on all devices.**
 
       • All page links are directly acessible in the navigation bar. The navigation bar is present in the header of every page keeping consistency throughout the site so it is easy for the visitor to intuitively browse through the website.
 
       • All pages are responsive until 320px.
 
-  3. The visitor would want the social media buttons to be easily accessible. 
+  3. **The visitor would want the social media buttons to be easily accessible.**
 
       • The social media icons are present in the footer on every page.
 
@@ -177,17 +184,17 @@
 
 ### Goals of a returning visitor :white_check_mark:
 
-  1. The visitor would be looking to find out more about street culture and be able to explore their interests more. 
+  1. **The visitor would be looking to find out more about street culture and be able to explore their interests more.**
 
       • The flip cards (larger screens) and clickable images (smaller screens) give the user the freedom to only explore the topics they are intrested in.
 
       • if the reader wishes to find out more they can click the link that takes them to a page with further reading and links specific to the content dicussed. 
 
-  2. The visitor would be looking to find out more informaton about the hub 
+  2. **The visitor would be looking to find out more informaton about the hub**
 
       • There is a button in the nav bar specific to the hubs details, this is avaible on every page.
 
-  3. The visitor would want to feel like their niche is being recognised 
+  3. **The visitor would want to feel like their niche is being recognised**
 
       • The hub gives all creatives the chnaces to celebrate their niche with a space each day to do their own thing or the option to participate in a different activity each day. 
       
@@ -195,15 +202,15 @@
 
   
 ### Goals of a frequent visitor :white_check_mark:
-  1. The visitor would want to sign up to get exclusive content and updates. 
+  1. **The visitor would want to sign up to get exclusive content and updates.**
 
       • There is a sign up form on the exclusives which will allows the user to get exclusive updates and content.
 
-  2. The visitor would want to know what activities are scheduled for a specific day. 
+  2. **The visitor would want to know what activities are scheduled for a specific day.**
 
       • There is a table on the come to the hub page that documents this.
 
-  3. The visitor would want to be able to navigate their way to speific content easily. 
+  3. **The visitor would want to be able to navigate their way to speific content easily.**
 
       • The nav bar has a button that takes you to all the main pages.
 
@@ -212,6 +219,17 @@
       • There is hyperlinked text throughout the website that will take you to the relevant pages.
 
       • Social media icons are on the bottom of every page.
+
+## Functionality Testing
+
+## Validator testing
+
+HTML5 - 
+
+CSS3  - 
+
+## Known errors
+
 
 # Technologies Used
 
@@ -244,6 +262,8 @@
    [Vs Code](https://code.visualstudio.com/) - VS Code powers gitpod and was used to build my website.
 
    [Slack](https://slack.com/intl/en-gb/) - I used slack to get feedback on my project
+
+   [WebAIM](https://webaim.org/resources/contrastchecker/) - I used WebAIM to help improve the contrast ratio of my links
 
    ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
    ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
