@@ -92,8 +92,12 @@
   background-color: #D4B464;
   z-index: 0;
 }
+  /* Changes the  colour of visited links to gold so it is visible against the background */
+a:link {
+  color: #611CA9;
+}
 
-  /* Changes the  colour of visited links to gold so it is visible against the flip cards */
+  /* Changes the  colour of visited links to gold so it is visible against the background */
 a.links:visited {
   color: #af9554;
   background-color: transparent;
