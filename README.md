@@ -151,9 +151,9 @@
    
 # Testing 
 
- ### Goals of a first time visitor 
+ ### Goals of a first time visitor :white_check_mark:
 
-  1. The visitor would want the purpose of the site to be clear and information should be easy to find. :white_check_mark:
+  1. The visitor would want the purpose of the site to be clear and information should be easy to find. 
 
       • The tagline of the logo is "for creatives" indicatimg to the visitor that this site is intended for creatives.
 
@@ -161,13 +161,13 @@
 
       • The navarbar is easily assecible in the header and gives the visitor the option to click the about us page where they can find more detailed information. 
 
-  2. The visitor would want the site to be easy to navigate on all devices. :white_check_mark:
+  2. The visitor would want the site to be easy to navigate on all devices. 
 
       • All page links are directly acessible in the navigation bar. The navigation bar is present in the header of every page keeping consistency throughout the site so it is easy for the visitor to intuitively browse through the website.
 
       • All pages are responsive until 320px.
 
-  3. The visitor would want the social media buttons to be easily accessible. :white_check_mark:
+  3. The visitor would want the social media buttons to be easily accessible. 
 
       • The social media icons are present in the footer on every page.
 
@@ -175,35 +175,35 @@
 
       • The icons are clearly visible in the footer
 
-### Goals of a returning visitor
+### Goals of a returning visitor :white_check_mark:
 
-  1. The visitor would be looking to find out more about street culture and be able to explore their interests more. :white_check_mark:
+  1. The visitor would be looking to find out more about street culture and be able to explore their interests more. 
 
       • The flip cards (larger screens) and clickable images (smaller screens) give the user the freedom to only explore the topics they are intrested in.
 
       • if the reader wishes to find out more they can click the link that takes them to a page with further reading and links specific to the content dicussed. 
 
-  2. The visitor would be looking to find out more informaton about the hub :white_check_mark:
+  2. The visitor would be looking to find out more informaton about the hub 
 
       • There is a button in the nav bar specific to the hubs details, this is avaible on every page.
 
-  3. The visitor would want to feel like their niche is being recognised :white_check_mark:
+  3. The visitor would want to feel like their niche is being recognised 
 
       • The hub gives all creatives the chnaces to celebrate their niche with a space each day to do their own thing or the option to participate in a different activity each day. 
       
       • The flip cards also document the contributions each niche has made.
 
   
-### Goals of a frequent visitor 
-  1. The visitor would want to sign up to get exclusive content and updates. :white_check_mark:
+### Goals of a frequent visitor :white_check_mark:
+  1. The visitor would want to sign up to get exclusive content and updates. 
 
       • There is a sign up form on the exclusives which will allows the user to get exclusive updates and content.
 
-  2. The visitor would want to know what activities are scheduled for a specific day. :white_check_mark:
+  2. The visitor would want to know what activities are scheduled for a specific day. 
 
       • There is a table on the come to the hub page that documents this.
 
-  3. The visitor would want to be able to navigate their way to speific content easily. :white_check_mark:
+  3. The visitor would want to be able to navigate their way to speific content easily. 
 
       • The nav bar has a button that takes you to all the main pages.
 
@@ -261,7 +261,7 @@
    • I used tutorials on [w3schools](https://www.w3schools.com/) to help create my nav bar and flip cards
 
 
-## To write my README I used :spiral_notepad:
+ ## To write my README I used :spiral_notepad:
 
    • [Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
 
