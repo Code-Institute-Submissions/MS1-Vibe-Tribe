@@ -14,28 +14,20 @@
   color: #611CA9;
   width: 100%;
 }
- /* Styles the social media icons in the header bar */
-.landing-page-header a {
-  color: #611CA9;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/* Styles the navigation bar */
-.landing-page-menu {
+/* Adds a black background to the navigation bar */
+.landing-page-menu{
   background-color: #000000;
   overflow: hidden;
   font-family: 'Rowdies', cursive;
-  color: #611CA9;
+  color: #ffffff;
   width: 100%;
 }
 /* Styles the links inside the navigation bar */
-.landing-page-menu a {
+.landing-page-menu a{
   float: left;
-  color: #611CA9;
+  color: #ffffff;
   text-align: center;
-  padding: 10px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
