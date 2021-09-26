@@ -63,12 +63,6 @@
        display: block;
     }
 } 
- /* Sets the  position of the icons and their size */
-.fa-ul{
-  display: inline-flexbox;
-  top:0 ;
-  font: size 5px;
-}
 /* Styles logo */
 .logo {
   display: block;
