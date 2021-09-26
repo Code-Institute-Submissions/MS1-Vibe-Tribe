@@ -49,12 +49,6 @@
   float: none;
   display: block;
 }
-/* Sets the  position of the icons and their size */
-.fa-ul {
-  display: inline-flexbox;
-  top:0 ;
-  font: size 5px;
-}
 /* Allows me to have the size and positioning I want*/
 .logo{
   display: block;

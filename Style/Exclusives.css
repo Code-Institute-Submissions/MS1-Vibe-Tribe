@@ -46,12 +46,6 @@
    float: none;
    display: block;
 }
-/* Sets the  position of the icons and their size */
-.fa-ul {
-   display: inline-flexbox;
-   top:0 ;
-   font: size 5px;
-}
 /* Sets the  width of the image. I could not set the margin width to 25% of the users screen so that the logo appears centred*/
 .Logo{
    width: 40%;
