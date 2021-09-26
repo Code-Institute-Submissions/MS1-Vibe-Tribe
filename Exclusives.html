@@ -12,7 +12,9 @@
 
          <!-- this allows me to import icons from font awseome and fonts from google fonts -->
         <script src="https://kit.fontawesome.com/6e65cbaf0a.js" crossorigin="anonymous"></script> 
-                
+        
+        <!-- This is the document title vsisible in the tab or browser title bar--> 
+         <title>sign-up</title>        
     </head>
     <body>
        <!-- this only applies to the landing page menu, creates the navigation bar and icons which I can then style-->
@@ -27,19 +29,19 @@
         <img src = "Media/Logo.png" alt="Logo" class="Logo">
           <br><br><br>
           <!-- sets header texts and allows me to style it-->
-            <h class="txt" > Sign up for exclusive events, drops and updates !!</h>
+            <section class="txt" ><h1>Sign up for exclusive events, drops and updates !!</h1></section>
               <br>
               <section class="form"> 
                   <!-- sign up form, shows the form details to the user after they successfully sign up-->
                   <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                     <!-- Sets the label and text for the name part of the form-->
-                    <label for="name">Name:</label><br>
+                    <label for="Name">Name:</label><br>
                     <!-- validates text in the form. It also sets place holder text-->
-                    <input required  aria-required ="true" type="text" id="first" name="Name" placeholder=" This is how we will address you"><br><br>
+                    <input required  aria-required ="true" type="text" id="Name" name="Name" placeholder=" This is how we will address you"><br><br>
                     <!-- Sets the label and text for the email part of the form-->
                     <label for="Email">Email:</label><br>
                     <!-- validaties emails . It also sets place holder text-->
-                    <input required aria-required ="true" type="email" id="email" name="Email" placeholder="eg. Jazzy@gmail.com"><br><br>
+                    <input required aria-required ="true" type="email" id="Email" name="Email" placeholder="eg. Jazzy@gmail.com"><br><br>
                     <!-- sets Niche label and allows me to style it-->
                     <label for="Niche">What is your Niche:</label><br>
                     
@@ -68,14 +70,13 @@
                         <source src="Media/Streetwear.ogg" type="video/ogg">  
                     </video>
     </body>
-      <footer>
-        <!-- allows me to style the footer using css, sets the text that will be visble in the footer and creates a list for the social media icons. floating them to the left and keeping them inline with the footer text--> 
-        <section class="footer"> 
-          <a href="https://www.instagram.com/"class="fa fa-instagram x3 fa-pull-right"  style= "color:rgb(223, 189, 105); text-decoration: none;"></a>
-          <a href="https://www.snapchat.com/l/en-gb/download/"class="fa fa-snapchat x3 fa-pull-right" style= "color:rgb(223, 189, 105) ; text-decoration: none;"></a>
-          <a href="https://www.facebook.com/"class="fa fa-facebook x3 fa-pull-right" style= "color:rgb(223, 189, 105) ; text-decoration: none;"></a>
-          <a href="https://twitter.com/login?lang=en-gb"class="fa fa-twitter x3 fa-pull-right" style="color:rgb(223, 189, 105); text-decoration: none;" ></a>
-           <p>Copyright Brieanna McDonald 2021</p>
-        </section>
-    </footer>
+    <footer>
+      <section class="footer">
+          <a href="https://www.instagram.com/" aria-label="Click to visit instagram" class="fa fa-instagram x3 fa-pull-right"  style= "color:rgb(223, 189, 105); text-decoration: none;"></a>
+          <a href="https://www.snapchat.com/l/en-gb/download/" aria-label="Click to visit snapchat" class="fa fa-snapchat x3 fa-pull-right" style= "color:rgb(223, 189, 105) ; text-decoration: none;"></a>
+          <a href="https://www.facebook.com/" aria-label="Click to visit facebook" class="fa fa-facebook x3 fa-pull-right" style= "color:rgb(223, 189, 105) ; text-decoration: none;"></a>
+          <a href="https://twitter.com/login?lang=en-gb" aria-label="Click to visit twitter" class="fa fa-twitter x3 fa-pull-right" style="color:rgb(223, 189, 105); text-decoration: none;" ></a>
+          <p>Copyright Brieanna McDonald 2021</p>
+      </section>  
+   </footer>  
 </html>
