@@ -99,12 +99,26 @@ table{
   position: absolute;
   text-align: justify;
   margin-left:45vw ;
+  margin-right: 5%;
   font-family: work sans;
   max-width: 60vw;
   float: right;
   bottom: 8vh;
 }
-/* Styles the table and image on screens 850px and less*/
+/* Styles the footer */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#000000;
+  color: #DFBD69;
+  text-align: left;
+  font-family:Rowdies;
+  padding: 0.5%;;
+  opacity: 0.9;
+}
+/* Styles the table, text and image on screens 850px and less*/
 @media only screen and (max-width: 850px) {
   .img{
     display: none;
@@ -114,8 +128,16 @@ table{
     margin-top: 20vh;
     margin-left: 25vw;
   }
+  .text{
+    position: absolute;
+    text-align: justify;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 8vh;
+    font-size: 90%;
+  }
 }
-/* Styles the table and image on screens 500px and less*/
+/* Styles the table, text , logo and image on screens 500px and less*/
 @media only screen and (max-width: 500px) {
   .img{
     display: none;
@@ -134,8 +156,16 @@ table{
     margin-top: 15vh;
     margin-left: 25vw;
   }
+  .text{
+    position: absolute;
+    text-align: justify;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 7vh;
+    font-size: 85%;
+  }
 }
-/* Styles the table and image on screens 400px and less*/
+/* Styles the table, text , logo and image on screens 400px and less*/
 @media only screen and (max-width: 400px) {
   .img{
     display: none;
@@ -154,8 +184,15 @@ table{
     margin-top: 12vh;
     margin-left: 20vw;
   }
+  .text{
+    position: absolute;
+    margin-left: 30%;
+    font-family: work sans;
+    bottom: 5.5vh;
+    font-size: 70%;
+  }
 }
-/* Styles the table and image on screens 300px and less*/
+/* Styles the table, text, logo and image on screens 300px and less*/
 @media only screen and (max-width: 300px) {
   .img{
     display: none;
@@ -174,41 +211,6 @@ table{
     margin-top: 10vh;
     margin-left: 15vw;
   }
-}
-/* Styles the text on screens 850px and less*/
-@media only screen and (max-width: 850px) {
-  .text{
-    position: absolute;
-    text-align: justify;
-    margin-left: 30%;
-    font-family: work sans;
-    bottom: 8vh;
-    font-size: 90%;
-  }
-}
-/* Styles the text on screens 500px and less*/
-@media only screen and (max-width: 500px) {
-  .text{
-    position: absolute;
-    text-align: justify;
-    margin-left: 30%;
-    font-family: work sans;
-    bottom: 7vh;
-    font-size: 85%;
-  }
-}
-/* Styles the text on screens 400px and less*/
-@media only screen and (max-width: 400px) {
-  .text{
-    position: absolute;
-    margin-left: 30%;
-    font-family: work sans;
-    bottom: 5.5vh;
-    font-size: 70%;
-  }
-}
-/* Styles the text on screens 300px and less*/
-@media only screen and (max-width: 300px) {
   .text{
     position: absolute;
     margin-left: 30%;
@@ -220,16 +222,4 @@ table{
     font-size: 70%;
   }
 }
-/* Styles the footer */
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#000000;
-  color: #DFBD69;
-  text-align: left;
-  font-family:Rowdies;
-  padding: 0.5%;;
-  opacity: 0.9;
-}
+
