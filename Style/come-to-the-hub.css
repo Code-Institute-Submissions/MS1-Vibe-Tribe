@@ -162,7 +162,7 @@ table{
     margin-left: 30%;
     font-family: work sans;
     bottom: 7vh;
-    font-size: 85%;
+    font-size: 75%;
   }
 }
 /* Styles the table, text , logo and image on screens 400px and less*/
@@ -189,7 +189,7 @@ table{
     margin-left: 30%;
     font-family: work sans;
     bottom: 4.5vh;
-    font-size: 70%;
+    font-size: 60%;
   }
 }
 /* Styles the table, text, logo and image on screens 300px and less*/
@@ -216,9 +216,6 @@ table{
     margin-left: 30%;
     font-family: work sans;
     bottom: 3vh;
-    font-size: 70%;
-  }
-  .footer{
     font-size: 70%;
   }
 }
