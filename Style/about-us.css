@@ -74,10 +74,8 @@
 }
 /* sets left-half of the background to a picture */
 .background{
-  background-image: url("/Media/Man.png");
   width: 55%;
   height: 100vh;
-  background-repeat: no-repeat;
   float: left;
 }
 /* sets  the colour  of the right-half of the background to gold*/
