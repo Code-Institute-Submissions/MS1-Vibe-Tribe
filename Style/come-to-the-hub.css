@@ -48,12 +48,6 @@
     float: none;
     display: block;
 }
-/* Sets the  position of the icons and their size */
-.fa-ul{
-  display: inline-flexbox;
-  top:0 ;
-  font: size 5px;
-}
 /* Styles the image */
 .img{
   width: 30vw;
