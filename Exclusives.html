@@ -11,67 +11,61 @@
         <link rel="stylesheet" href="Style/Exclusives.css" type="text/css" />
 
          <!-- this allows me to import icons from font awseome and fonts from google fonts -->
-        <script src="https://kit.fontawesome.com/6e65cbaf0a.js" crossorigin="anonymous"></script>
-
-            <!-- this only applies to the landing page menu, creates the navigation bar and icons which I can then style-->
-            <section class="landing-page-menu">
-                <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-                <a href="about-us.html"><i class="fa fa-fw fa-user"></i> About us</a>
-                <a href="Streetwear's-evolution.html"><i class="fas fa-vest-patches"></i> Streetwear's evolution</a>
-                <a href="come-to-the-hub.html"><i class="fas fa-map-pin"></i> Come to the hub</a>
-                <a class="active" href="Exclusives.html"><i class="fas fa-fire"></i> Exclusives</a>
-            </section>  
+        <script src="https://kit.fontawesome.com/6e65cbaf0a.js" crossorigin="anonymous"></script> 
                 
     </head>
     <body>
+       <!-- this only applies to the landing page menu, creates the navigation bar and icons which I can then style-->
+       <section class="landing-page-menu">
+          <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="about-us.html"><i class="fa fa-fw fa-user"></i> About us</a>
+          <a href="Streetwear's-evolution.html"><i class="fas fa-vest-patches"></i> Streetwear's evolution</a>
+          <a href="come-to-the-hub.html"><i class="fas fa-map-pin"></i> Come to the hub</a>
+          <a class="active" href="Exclusives.html"><i class="fas fa-fire"></i> Exclusives</a>
+       </section> 
         <!-- sets location of logo image and allows me to style it-->
-        <img src = "Media/Logo.png" alt="Logo" type= "png" class="Logo"/>
+        <img src = "Media/Logo.png" alt="Logo" class="Logo">
           <br><br><br>
           <!-- sets header texts and allows me to style it-->
-            <h1 class="txt" > Sign up for exclusive events, drops and updates !!</h1>
+            <h class="txt" > Sign up for exclusive events, drops and updates !!</h>
               <br>
               <section class="form"> 
                   <!-- sign up form, shows the form details to the user after they successfully sign up-->
                   <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                    <!-- Sets the label and text for the name part of the form-->
+                    <label for="name">Name:</label><br>
+                    <!-- validates text in the form. It also sets place holder text-->
+                    <input required  aria-required ="true" type="text" id="first" name="Name" placeholder=" This is how we will address you"><br><br>
+                    <!-- Sets the label and text for the email part of the form-->
+                    <label for="Email">Email:</label><br>
+                    <!-- validaties emails . It also sets place holder text-->
+                    <input required aria-required ="true" type="email" id="email" name="Email" placeholder="eg. Jazzy@gmail.com"><br><br>
+                    <!-- sets Niche label and allows me to style it-->
+                    <label for="Niche">What is your Niche:</label><br>
                     
-                  <!-- Sets the label and text for the name part of the form-->
-                    <label for=" name">Name:</label><br>
-
-                      <!-- validates text in the form. It also sets place holder text-->
-                      <input required  aria-required ="true" type="text" id="first" name="Name" placeholder=" This is how we will address you"></input><br><br>
-
-                      <!-- Sets the label and text for the email part of the form-->
-                        <label for="Email">Email:</label><br>
-
-                        <!-- validaties emails . It also sets place holder text-->
-                          <input required aria-required ="true" type="email" id="email" name="Email" placeholder="eg. Jazzy@gmail.com"></input><br><br>
-
-                            <!-- sets Niche label and allows me to style it-->
-                            <label for="Niche">What is your Niche:</label><br>
-
-                              <!-- form drop down-->
-                              <select name="Niche"id="Niche" >
-                                  <!-- form drop down options-->
-                                  <option value="Skating">Skating</option>
-                                  <option value="videography">videography</option>
-                                  <option value="Music">Music</option>
-                                  <option value="Art">Art</option>
-                                  <option value="Phototgraphy">Phototgraphy</option>
-                                  <option value="Design">Design</option>
-                                  <option value="Fashion">Fashion</option>
-                                  <option value="Basketball">Basketball</option>
-                                  <option value="I dabble in everything">I dabble in everything</option>
-                              </select>
-                                <br><br>
-                                <!-- sets button text and allows me to style it-->
-                                  <button type="submit" class= "sign-up" >Sign me up !</button>
+                    <!-- form drop down-->
+                    <select name="Niche" id="Niche" >
+                    <!-- form drop down options-->
+                       <option value="Skating">Skating</option>
+                       <option value="videography">videography</option>
+                       <option value="Music">Music</option>
+                       <option value="Art">Art</option>
+                       <option value="Phototgraphy">Phototgraphy</option>
+                       <option value="Design">Design</option>
+                       <option value="Fashion">Fashion</option>
+                       <option value="Basketball">Basketball</option>
+                       <option value="I dabble in everything">I dabble in everything</option>
+                    </select>
+                      <br><br>
+                        <!-- sets button text and allows me to style it-->
+                         <button type="submit" class="sign-up" >Sign me up !</button>
                   </form>
               </section>      
-              <!--  "controls" allows video to be controlled by user. "Preload" allows the video to automaticaly preload."class" allows me to stlye the video-->
+                    <!--  "controls" allows video to be controlled by user. "Preload" allows the video to automaticaly preload."class" allows me to stlye the video-->
                     <video  controls preload="auto" class="video">
                       <!-- Location and type of video.-->
-                        <source src="Media/Streetwear.mp4" alt="Streetwear video"type= "video/mp4">
-                        <source src="Media/Streetwear.ogg" alt="Streetwear video" type= "video/ogg">  
+                        <source src="Media/Streetwear.mp4" type="video/mp4">
+                        <source src="Media/Streetwear.ogg" type="video/ogg">  
                     </video>
     </body>
       <footer>
