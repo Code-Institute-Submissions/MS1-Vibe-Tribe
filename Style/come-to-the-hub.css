@@ -9,7 +9,7 @@
 .landing-page-header{
   background-color: #DFBD69;
   overflow: hidden;
-  font-family: 'Rowdies', cursive;
+  font-family:'Rowdies', cursive;
   color: #611CA9;
   width: 100%;
 }
@@ -17,7 +17,7 @@
 .landing-page-menu{
   background-color: #000000;
   overflow: hidden;
-  font-family: 'Rowdies', cursive;
+  font-family:'Rowdies', cursive;
   color: #ffffff;
   width: 100%;
 }
@@ -45,8 +45,8 @@
 }
 /* Sets navbar position */
 .navbar a{
-    float: none;
-    display: block;
+  float: none;
+  display: block;
 }
 /* Styles the image */
 .img{
@@ -89,6 +89,21 @@ table{
   height:40%;
   margin-top: 20vh;
   margin-left: 10vw;
+}
+/* If there is overflow of text the content will be clippeed but the rest of text is visible*/
+.style{
+  overflow: auto;
+}
+/* Styles the text*/
+.text{
+  position: absolute;
+  text-align: justify;
+  margin-left:10vw ;
+  margin-right:5% ;
+  font-family: work sans;
+  max-width: 40vw;
+  float: right;
+  bottom: 8vh;
 }
 /* Styles the table and image on screens 850px and less*/
 @media only screen and (max-width: 850px) {
@@ -160,21 +175,6 @@ table{
     margin-top: 10vh;
     margin-left: 15vw;
   }
-}
-/* If there is overflow of text the content will be clippeed but the rest of text is visible*/
-.style{
-  overflow: auto;
-}
-/* Styles the text*/
-.text{
-  position: absolute;
-  text-align: justify;
-  margin-left:10vw ;
-  margin-right:5% ;
-  font-family: work sans;
-  max-width: 40vw;
-  float: right;
-  bottom: 8vh;
 }
 /* Styles the text on screens 850px and less*/
 @media only screen and (max-width: 850px) {
