@@ -51,10 +51,10 @@
 /* Styles the image */
 .img{
   width: 30vw;
-  display: box;
+  display: block;
   float: left;
   height:100vh;
-  margin: left 0; ;
+  margin-left:0;
 }
 /* Styles the logo */
 .logo{
