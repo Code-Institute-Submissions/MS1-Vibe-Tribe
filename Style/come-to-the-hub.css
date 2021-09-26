@@ -98,9 +98,9 @@ table{
 .text{
   position: absolute;
   text-align: justify;
-  margin-left:35vw ;
+  margin-left:45vw ;
   font-family: work sans;
-  max-width: 40vw;
+  max-width: 60vw;
   float: right;
   bottom: 8vh;
 }
