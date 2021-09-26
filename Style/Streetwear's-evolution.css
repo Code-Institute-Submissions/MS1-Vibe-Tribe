@@ -74,7 +74,7 @@
   padding-right: 15vw;
 }
 /* sets background colour to gold */
-.bckgrnd{
+body{
   background-color: #D4B464;
   z-index: 0;
 }
