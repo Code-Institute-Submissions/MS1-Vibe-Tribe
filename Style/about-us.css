@@ -80,7 +80,7 @@
 }
 /* sets left-half of the background to a picture */
 .background{
-  background-image: url("Man .png");
+  background-image: url("Man.png");
   width: 55%;
   height: 100vh;
   background-repeat: no-repeat;
