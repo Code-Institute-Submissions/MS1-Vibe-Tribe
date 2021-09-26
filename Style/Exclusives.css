@@ -134,6 +134,10 @@ body {
       width: 60%;
       margin-left:20vw;
    }
+   .txt{
+      font-size: medium;
+     
+   }
 }
  @media only screen and (max-width: 300px) {
    ::placeholder{
@@ -142,6 +146,9 @@ body {
    .Logo{
       width: 70%;
       margin-left:15vw;
+   }
+   .txt{
+      font-size:20%;
    }
 }
 /* Styles the footer */
