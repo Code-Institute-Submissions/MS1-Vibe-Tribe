@@ -1,4 +1,80 @@
-nsplash](https://unsplash.com/).
+<img src="Media/Vibe-Tribe.png" width="200px">
+ 
+# What is my project about :question:
+ 
+I decided to create a website for a fictitious street culture hub for creatives. Vibe Tribe is a hub for creatives to get together and collaborate as a collective to produce something wonderful as this is the essence of street culture. The name Vibe Tribe was chosen for this project as "vibe" is used to define the atmosphere of a space. In urban slang "vibe" is often used to describe something that is chilled, peaceful or someone who is great to be around. Whilst the word "Tribe" is most commonly used to refer to a social division of people within society linked by blood ties. However, it can also be used to refer to people who share cultural and/or social links. The latter is the definition being used in this case. As all users of this hub will identify as creatives and will influence and/or be influenced by street culture in some way.
+ 
+# What inspired the Project ? :bulb:
+ 
+The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be a shame to lose that as things slowly return to normal. Vibe Tribe is a means of maintaining that and encouraging people to come together and flourish, focusing on their common goals and interests as opposed to their differences. It also serves as a way to educate people about the contribution that street culture and its sub cultures have made to larger society.
+as
+<img src="Media/responsive-design.png">
+ 
+:globe_with_meridians: [Vibe Tribe Live Website](https://bmcdonald2000.github.io/MS1-Vibe-Tribe/index.html)
+ 
+ 
+# Table of contents :bookmark_tabs:
+ [User Experience (UX)](#User-Experience-(UX)-art)
+ 
+ [Current Features](#Current-features)
+ 
+ [Testing](#Testing)
+ 
+ [Technologies Used](#Technologies-Used)
+  [Credits](#Credits)
+ 
+# User Experience (UX) :art:
+ 
+ ## User Stories
+ 
+### Goals of a first time visitor :dart:
+ 
+ • The visitor would want the purpose of the site to be clear and information should be easy to find.
+ 
+ • The visitor would want the site to be easy to navigate on all devices.
+ 
+ • The visitor would want the social media buttons to be easily accessible.
+ 
+### Goals of a returning visitor :dart:
+ 
+ • The visitor would be looking to find out more about street culture and be able to explore their interests more.
+ • The visitor would be looking to find out more information about the hub
+ • The visitor would would to feel like their niche is being recognised
+ ### Goals of a frequent visitor :dart:
+ • The visitor would want to sign up to get exclusive content and updates
+ 
+ • The visitor would want to know what activities are scheduled for a specific day
+ 
+ • The visitor would want to be able to navigate their way to specific content easily.
+ 
+ ## Design
+ 
+  ### Colour Scheme
+ 
+  The main goal of this website is to provide a space for creatives to learn more about street culture, So I wanted to pick a colour scheme that linked to that. Purple and Gold are the colours for Lakers, a popular basketball team in the NBA and a lot of their apparel is popular within street culture.
+ 
+  Purple is also said to symbolise creativity and transformation. This is the energy that I want the users to channel and associate with the hub. Gold is associated with luxury and wisdom. The site serves to educate those looking to learn more about street culture but also highlight the culture which has been developed by creatives and its transition from urban to luxury spaces.
+ 
+  Below is the colour palette that I created, based on the message I wanted my colours to convey. I then used [cava's colour palette generator](https://www.canva.com/colors/color-palette-generator/) to make sure that the colours I had chosen worked with the site content. Where more contrast was needed between colours I have used black or white.
+ 
+  (Media/colour-palette.png)
+ 
+  ### Typography
+ 
+  The font used for the headers, footers and buttons is a latin display typeface called 'Rowdies'. I have chosen this font as it is bold and creative, inline with the sites theme.
+ 
+  <img src="Media/Rowdies.png" width="200px">
+ 
+  The font used for the body text is a 'Work Sans', a typeface family based loosely on early Grotesques. It has simple features making it optimised for screen resolutions and easy for the user to read.
+ 
+  <img src="Media/Work-Sans.png"  width="200px">
+ 
+  ### Media :film_strip:
+  I wanted the media used on my site to be a reflection of the creativity and interests of the users. I was unable to create my own content so I used royalty free images and videos.
+ 
+  • My videos were from [Pexels](https://www.pexels.com/).
+ 
+  • I used pictures from [Pexels](https://www.pexels.com/) and [unsplash](https://unsplash.com/).
  
   ###  Mockup
   I used figma to create my mockups and have included the links to the mobile and desktop mockups. There are a few differences in my mockup and the end product, so I have included  screenshots specific to those changes and the links to my mobile and desktop mockups are below:point_down:
