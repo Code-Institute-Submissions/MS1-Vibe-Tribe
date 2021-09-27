@@ -274,61 +274,61 @@ In order to ensure there was no syntax errors in my code I used a validator serv
  
  **Navbar:**
  
-    • When the link is active or hovered on the navbar button is highlighted purple with gold font this was tested on all pages and on desktop and mobile. The active link always corresponds with the page.
+  • When the link is active or hovered on the navbar button is highlighted purple with gold font this was tested on all pages and on desktop and mobile. The active link always corresponds with the page.
  
-    • All the links in the Navbar are working and have also been thoroughly tested.
+  • All the links in the Navbar are working and have also been thoroughly tested.
  
-    • The navar appears horizontally on screen sizes larger than 740px. On smaller screens the navbar displays horizontally. This is working as expected.
+  • The navar appears horizontally on screen sizes larger than 740px. On smaller screens the navbar displays horizontally. This is working as expected.
  
-    • The navbar remains at the top of the page on all screen sizes
+  • The navbar remains at the top of the page on all screen sizes
  
-    • The navbar icons are visible on all pages and screen sizes.
+  • The navbar icons are visible on all pages and screen sizes.
  
  **Media:**
  
-    • All other images used throughout the website show as expected. There are no broken links and all media is of good quality.
+  • All other images used throughout the website show as expected. There are no broken links and all media is of good quality.
  
  **Links:**
  
-   External:
+  External:
  
-    • All external links are working as expected.They take you to the correct external pages and the default link colours have been changed to ensure contrast. The links open in a new tab for the users convenience.
+  • All external links are working as expected.They take you to the correct external pages and the default link colours have been changed to ensure contrast. The links open in a new tab for the users convenience.
  
-   Internal:
+  Internal:
               
-    • All internal links are working as expected.They take you to the relevant pages and the default colours of these links have been changed.
+  • All internal links are working as expected.They take you to the relevant pages and the default colours of these links have been changed.
  
-    • The links to the pages listed in the nav bar open in the same tab allowing seamless navigation through the site.
+  • The links to the pages listed in the nav bar open in the same tab allowing seamless navigation through the site.
  
-    • The links to the internal pages that provide extra information open in new tabs for the user convenience as these pages have no navigation bar and can only be accessed through the links in the streetwears evolution page.
+  • The links to the internal pages that provide extra information open in new tabs for the user convenience as these pages have no navigation bar and can only be accessed through the links in the streetwears evolution page.
  
  **Flip-cards:**
  
-    • All flip cards flip on hover. However, because the project only uses CSS3 and HTML5 I was unable to make the flip cards responsive on mobile. For smaller screens there are clickable images instead. This is explained to the user in the text above the flipcards/images.
+  • All flip cards flip on hover. However, because the project only uses CSS3 and HTML5 I was unable to make the flip cards responsive on mobile. For smaller screens there are clickable images instead. This is explained to the user in the text above the flipcards/images.
  
-    •All hyperlinked text on the flipcards open the corresponding page in a new tab. All flip cards have been tested and work as expected on screens above 1100px.
+  •All hyperlinked text on the flipcards open the corresponding page in a new tab. All flip cards have been tested and work as expected on screens above 1100px.
  
-    •All hyperlinked images open the corresponding page in a new tab. All images have been tested and work as expected on screens 1100px and below.
+  •All hyperlinked images open the corresponding page in a new tab. All images have been tested and work as expected on screens 1100px and below.
  
  **Video:**
  
   Landing page:
                 
-    •  The landing page video is auto looped and muted on larger screens, there are no issues.
+  •  The landing page video is auto looped and muted on larger screens, there are no issues.
  
-    • The video on the exclusives page has clickable controls , which are visible on hover and work when pressed. However, the video has no attached audio.
+  • The video on the exclusives page has clickable controls , which are visible on hover and work when pressed. However, the video has no attached audio.
  
   Exclusives page:
  
-    • The video is only visible on larger screens.
+  • The video is only visible on larger screens.
  
  **Footer:**
         
-    • The footer remains at the bottom and is visible on all pages and all devices.
+  • The footer remains at the bottom and is visible on all pages and all devices.
  
-    • I have added padding to the footer so the text and social media icons are never at the edge of the footer making it easy for the user to see.
+  • I have added padding to the footer so the text and social media icons are never at the edge of the footer making it easy for the user to see.
  
-    • The social media icons are visible on every page and when clicked open the relevant link in a new tap for the users convenience, this has been tested on all pages and a range of devices.
+  • The social media icons are visible on every page and when clicked open the relevant link in a new tap for the users convenience, this has been tested on all pages and a range of devices.
  
 ## Compatibility Testing
  
