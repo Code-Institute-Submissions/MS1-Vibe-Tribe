@@ -77,6 +77,7 @@
 body{
   background-color: #D4B464;
   z-index: 0;
+
 }
   /* Changes the  colour of links to a dark red to increase contrast */
 a.links {
@@ -550,4 +551,5 @@ a.links:hover {
   font-family:Rowdies;
   padding: 0.5%;
   opacity: 0.7;
+  overflow: hidden;
 } 
