@@ -77,7 +77,6 @@
 body{
   background-color: #D4B464;
   z-index: 0;
-  overflow: auto;
 }
   /* Changes the  colour of links to a dark red to increase contrast */
 a.links {
@@ -296,7 +295,7 @@ a.links:hover {
 .street-art-inner {
   position: relative;
   width: 309px;
-  height: 3360px;
+  height: 360px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
