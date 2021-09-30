@@ -374,12 +374,14 @@ a.links:hover {
     top: 7vh;
     padding-left: 200px;
     padding-right: 300px;
+    height: 1300px;
   }
   .right{
     position: relative;
     top: 10vh;
     float: right;
     padding-left: 300px;
+    height: 1300px;
   }
   .pictures{
     z-index: -7;
@@ -398,6 +400,7 @@ a.links:hover {
     top: 7vh;
     padding-left: 17%;
     padding-right: 15%;
+    height: 1300px;
   }
   .right{
     position: relative;
@@ -406,6 +409,7 @@ a.links:hover {
     padding-left: 33%;
     padding-right: 15%;
     margin-right: 0;
+    height: 1300px;
   }
   .pictures{
     z-index: -7;
