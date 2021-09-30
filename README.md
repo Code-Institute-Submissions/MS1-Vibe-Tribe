@@ -61,9 +61,15 @@ The inspiration for this imaginary hub was the pandemic. There was as surge of c
  
   Purple is also said to symbolise creativity and transformation. This is the energy that I want the users to channel and associate with the hub. Gold is associated with luxury and wisdom. The site serves to educate those looking to learn more about street culture but also highlight the culture which has been developed by creatives and its transition from urban to luxury spaces.
  
-  Below is the colour palette that I created, based on the message I wanted my colours to convey. I then used [cava's colour palette generator](https://www.canva.com/colors/color-palette-generator/) to make sure that the colours I had chosen worked with the site content. Where more contrast was needed between colours I have used white font or adjusted opacity.
- 
+  Below is the colour palette that I created, based on the message I wanted my colours to convey. I then used [cava's colour palette generator](https://www.canva.com/colors/color-palette-generator/) to make sure that the colours I had chosen worked with the site content. Where more contrast was needed between colours I have used white font or adjusted opacity. 
+
   (Media/colour-palette.png)
+
+  The link colours were chosen based on contrast, as the main goal was to make these as accessible as possible for the users. After testing I changed the defult link colour to a dark red (#570000). Once clicked it will turn to dark blue (#1C1EA9) and be a very light blue (#05E9DD) on hover. I used [WebAIM](https://webaim.org/resources/contrastchecker/) to chose colours with high contrast ratio. These colours are shown below 
+
+   ![#570000](https://via.placeholder.com/150/570000/000000?Text=#570000) 
+   ![#1C1EA9](https://via.placeholder.com/150/1C1EA9/000000?Text=#1C1EA9)
+   ![#05E9DD](https://via.placeholder.com/150/05e9dd/000000?Text=#05e9dd)
  
   ### Typography
  
