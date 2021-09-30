@@ -92,7 +92,7 @@ a.links:visited {
 }
 /* Changes the  colour of links to light blue on hover to increase contrast */
 a.links:hover {
-  color: #05e9dd;
+  color: #05E9DD;
   background-color: transparent;
   text-decoration: underline;
 }

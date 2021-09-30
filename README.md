@@ -7,8 +7,10 @@ I decided to create a website for a fictitious street culture hub for creatives.
 # What inspired the Project ? :bulb:
  
 The inspiration for this imaginary hub was the pandemic. There was as surge of creativity and togetherness which allowed people from various fields come together to solve problems, to challenge injustice & create amazing things in a way that has never happened before. It would be a shame to lose that as things slowly return to normal. Vibe Tribe is a means of maintaining that and encouraging people to come together and flourish, focusing on their common goals and interests as opposed to their differences. It also serves as a way to educate people about the contribution that street culture and its sub cultures have made to larger society.
-as
+
+
 <img src="Media/responsive-design.png">
+
  
 :globe_with_meridians: [Vibe Tribe Live Website](https://bmcdonald2000.github.io/MS1-Vibe-Tribe/index.html)
  
@@ -21,7 +23,8 @@ as
  [Testing](#Testing)
  
  [Technologies Used](#Technologies-Used)
-  [Credits](#Credits)
+ 
+ [Credits](#Credits)
  
 # User Experience (UX) :art:
  
@@ -38,8 +41,11 @@ as
 ### Goals of a returning visitor :dart:
  
  • The visitor would be looking to find out more about street culture and be able to explore their interests more.
+
  • The visitor would be looking to find out more information about the hub
+
  • The visitor would would to feel like their niche is being recognised
+ 
  ### Goals of a frequent visitor :dart:
  • The visitor would want to sign up to get exclusive content and updates
  
@@ -55,7 +61,7 @@ as
  
   Purple is also said to symbolise creativity and transformation. This is the energy that I want the users to channel and associate with the hub. Gold is associated with luxury and wisdom. The site serves to educate those looking to learn more about street culture but also highlight the culture which has been developed by creatives and its transition from urban to luxury spaces.
  
-  Below is the colour palette that I created, based on the message I wanted my colours to convey. I then used [cava's colour palette generator](https://www.canva.com/colors/color-palette-generator/) to make sure that the colours I had chosen worked with the site content. Where more contrast was needed between colours I have used black or white.
+  Below is the colour palette that I created, based on the message I wanted my colours to convey. I then used [cava's colour palette generator](https://www.canva.com/colors/color-palette-generator/) to make sure that the colours I had chosen worked with the site content. Where more contrast was needed between colours I have used white font or adjusted opacity.
  
   (Media/colour-palette.png)
  
@@ -98,7 +104,7 @@ as
  
   ### Header
  
-  • The header is the same across all pages and view port sizes, it contains the navigation bar with the active page being highlighted in purple and font in gold so that  it is easier for the user to navigate. On hover the page buttons turn purple and the font is gold as well. On smaller viewports the navigation bar displays vertically instead of horizontally.
+  • The header is the same across all pages and view port sizes, it contains the navigation bar with the active page being highlighted with a purple background and  gold font so that  it is easier for the user to navigate. On hover the page buttons turn purple and the font is gold as well. On smaller viewports the navigation bar displays vertically instead of horizontally.
  
   ### Logo
  
@@ -263,6 +269,7 @@ In order to ensure there was no syntax errors in my code I used a validator serv
  
  ### Errors
  • All known errors have been fixed
+
   ### Bugs
  • The auto close tags on VS Code caused some bugs, I was able to fix this by turning off auto close tags.
  
@@ -462,17 +469,19 @@ In order to ensure there was no syntax errors in my code I used a validator serv
  
   [Git](https://git-scm.com/) - I used Git to track the changes to my code. Git was also used for version control.
  
-  [Github](https://github.com/) - Github was used to host my project files. I then used Gitpages to deploy my  website.
+  [Github](https://github.com/) - Github was used to host my project files. I then used Gitpages to deploy the website.
  
-  [Vs Code](https://code.visualstudio.com/) - VS Code powers gitpod and was used to build my website.
+  [Vs Code](https://code.visualstudio.com/) - VS Code powers gitpod and was used to build the website.
  
   [Slack](https://slack.com/intl/en-gb/) - I used slack to get feedback on my project
  
   [WebAIM](https://webaim.org/resources/contrastchecker/) - I used WebAIM to help improve the contrast ratio of my links
  
-  [Webpagetest](https://www.webpagetest.org/ - I used Webpagetest to test the performance of my site on a range of devices.
+  [Webpagetest](https://www.webpagetest.org/) - I used Webpagetest to test the performance of the websiteon a range of devices.
  
-  [lighthouse testing](https://developers.google.com/web/tools/lighthouse)
+  [lighthouse testing](https://developers.google.com/web/tools/lighthouse) - I used lighthouse testing to test the performance of the website.
+
+  [Amiresponsive?](http://ami.responsivedesign.is/) - I used this site to create the image used at the start of my README.
  
   ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
   ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
@@ -482,7 +491,45 @@ In order to ensure there was no syntax errors in my code I used a validator serv
   ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
  
 # Deployment
- 
+
+**Publishing**
+
+I used [GitHub Pages](https://pages.github.com/) to publish this webiste. In order for the site to be deployed correctly, ensure your landing page is named index.html. 
+
+I used the following steps to deploy this site:
+
+1. Log in to Github and locate the [Github Repository](https://github.com/)
+
+2. Click the "settings" button.
+
+3. Scroll down until you see "GitHub Pages".
+
+4. In the source dropdown select "master branch".
+
+5. Once the page refreshes the link to your publish page will be 
+displayed under GitHub pages.
+
+6. The link colour will change to green, it can take a few moments for the site to be published. 
+
+
+
+**Making a Local Clone**
+
+1. Go to the [Vibe Tribe repository](https://github.com/bmcdonald2000/MS1-Vibe-Tribe)
+
+2. Click the "Clone or Download" button under the repository name.
+
+3. A button will appear called Clone with HTTPS.
+
+4. Copy this clone URL for the Vibe Tribe repository
+
+5. Open Git Bash in your local IDE
+
+6. Change the current working directory to the location where you want the clone directory to be made
+
+7. Type `git clone`, then paste the URL you copied earlier (from step 4) This should look like `git clone https://github.co./YOUR-USERNAME/YOUR-REPOSITORY`
+
+8. Press enter. Your local clone will be created. If you have any issues or want to read more [click here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#troubleshooting-cloning-errors)
  
  
 # Credits :open_book:
@@ -508,6 +555,7 @@ In order to ensure there was no syntax errors in my code I used a validator serv
 ## Acknowledgements
  
   • Thank you to my mentor for answering my questions and always giving me useful feedback and insights.
+  
 
 
 
