@@ -67,9 +67,12 @@ The inspiration for this imaginary hub was the pandemic. There was as surge of c
 
   The link colours were chosen based on contrast, as the main goal was to make these as accessible as possible for the users. After testing I changed the defult link colour to a dark red (#570000). Once clicked it will turn to dark blue (#1C1EA9) and be a very light blue (#05E9DD) on hover. I used [WebAIM](https://webaim.org/resources/contrastchecker/) to chose colours with high contrast ratio. These colours are shown below 
 
-   ![#570000](https://via.placeholder.com/150/570000/000000?Text=#570000) 
-   ![#1C1EA9](https://via.placeholder.com/150/1C1EA9/000000?Text=#1C1EA9)
-   ![#05E9DD](https://via.placeholder.com/150/05e9dd/000000?Text=#05e9dd)
+   ![#570000](https://via.placeholder.com/50/570000/000000?Text=+) #570000
+
+   ![#1C1EA9](https://via.placeholder.com/50/1C1EA9/000000?Text=+) #1C1EA9
+
+   ![#05E9DD](https://via.placeholder.com/50/05e9dd/000000?Text=+) #05e9dd
+ 
  
   ### Typography
  
