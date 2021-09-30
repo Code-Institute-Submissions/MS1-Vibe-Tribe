@@ -385,6 +385,9 @@ a.links:hover {
     z-index: -7;
     display: none;
   }
+  body{
+    height: 1200px;
+  }
 }
 /* Styles the cards on screens 1200px and less */
 @media screen and (max-width: 1200px){
@@ -407,6 +410,9 @@ a.links:hover {
   .pictures{
     z-index: -7;
     display: none;
+  }
+  body{
+    height: 1200px;
   }
 }
 
